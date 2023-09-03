@@ -1,0 +1,13 @@
+@import '../../../variables';
+
+.IconButton {
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 32px;
+
+    &:first-child {
+        margin-right: 1.2rem;
+    }
+}

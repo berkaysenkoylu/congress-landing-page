@@ -1,0 +1,20 @@
+@import "../../../variables";
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &__Items {
+        list-style: none;
+        display: flex;
+        padding: 0.5rem 0.75rem;
+    }
+
+    &__Lang {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
