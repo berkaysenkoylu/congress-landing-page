@@ -1,14 +1,19 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useContext } from 'react';
 
+import { Context } from '../../../App';
 import classes from './NavigationItem.module.scss';
 
 const NavigationItem = (props: any) => {
+    const [pageName, setPageName] = useContext(Context);
+
+    let classList = [classes.NavigationItem];
+
+    if (pageName === props.pageName) {
+        classList = [classes.NavigationItem, classes.NavigationItem__Active];
+    }
+
     return (
-        <NavLink
-            to={props.to}
-            className={({ isActive }) => isActive ?
-                [classes.NavigationItem, classes.NavigationItem__Active].join(' ') : classes.NavigationItem}>{props.label}</NavLink>
+        <button className={classList.join(' ')} onClick={() => setPageName(props.pageName)}>{props.label}</button>
     )
 }
 

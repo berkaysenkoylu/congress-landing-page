@@ -2,11 +2,14 @@
     "Title": "4th International Animal Nutrition Congress",
     "Navigation": {
         "Home": "Home",
-        "Invitation": "Invitation",
         "Committees": "Committees",
-        "Abstract": "Abstract",
+        "CongressRegistration": "Registration",
+        "Accomodation": "Hotel and hall info",
         "Sponsorship": "Sponsorship",
-        "Sponsors": "Sponsors",
         "Contact": "Contact"
+    },
+    "Home": {
+        "OverlayTitle": "4th International Animal Nutrition Congress",
+        "OverlaySubTitle": "29th February - 3rd March 2024, Concorde DeLuxe Resort, Lara - Antalya / Turkiye"
     }
 }

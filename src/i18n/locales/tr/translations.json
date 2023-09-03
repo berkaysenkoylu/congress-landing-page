@@ -2,11 +2,14 @@
     "Title": "4. Uluslararası Hayvan Besleme Kongresi",
     "Navigation": {
         "Home": "Anasayfa",
-        "Invitation": "Davet",
         "Committees": "Kurullar",
-        "Abstract": "Bildiri",
+        "CongressRegistration": "Kongre kaydı",
+        "Accomodation": "Otel ve salon bilgileri",
         "Sponsorship": "Sponsorluk",
-        "Sponsors": "Sponsorlar",
         "Contact": "İletişim"
+    },
+    "Home": {
+        "OverlayTitle": "4.Uluslararası Hayvan Besleme Kongresi",
+        "OverlaySubTitle": "29 Şubat – 3 Mart 2024, Concorde DeLuxe Resort, Lara - Antalya"
     }
 }

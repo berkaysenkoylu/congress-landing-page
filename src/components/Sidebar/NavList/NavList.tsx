@@ -4,14 +4,35 @@ import { useTranslation } from 'react-i18next';
 import classes from './NavList.module.scss';
 import NavigationItem from '../NavigationItem/NavigationItem';
 
-const NavList = () => {
+const NavList = (props: any) => {
     const { t } = useTranslation();
 
     let navList = (
         <>
-            <NavigationItem exact to="/" label={t("Navigation.Home")} />
-            <NavigationItem exact to="/davet" label={t("Navigation.Invitation")} />
-            <NavigationItem exact to="/bildiri" label={t("Navigation.Abstract")} />
+            <NavigationItem
+                pageName='Home'
+                label={t("Navigation.Home")}
+            />
+            <NavigationItem
+                pageName='Committees'
+                label={t("Navigation.Committees")}
+            />
+            <NavigationItem
+                pageName='CongressRegistration'
+                label={t("Navigation.CongressRegistration")}
+            />
+            <NavigationItem
+                pageName='Accomodation'
+                label={t("Navigation.Accomodation")}
+            />
+            <NavigationItem
+                pageName='Sponsorship'
+                label={t("Navigation.Sponsorship")}
+            />
+            <NavigationItem
+                pageName='Contact'
+                label={t("Navigation.Contact")}
+            />
         </>
     );
 

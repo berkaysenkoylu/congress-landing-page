@@ -1,29 +1,47 @@
-import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { useState, createContext } from 'react';
 import './App.scss';
 import Layout from './hoc/Layout/Layout';
-import Invitation from './pages/Invitiation/Invitation';
-import Manifesto from './pages/Manifesto/Manifesto';
+import Committees from './pages/Committees/Committees';
+import CongressRegistration from './pages/CongressRegistration/CongressRegistration';
 import Home from './pages/Home/Home';
+import Accomodation from './pages/Accomodation/Accomodation';
+import Sponsorship from './pages/Sponsorship/Sponsorship';
+import Contact from './pages/Contact/Contact';
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <Layout />,
-        id: 'root',
-        children: [
-            { index: true, element: <Home /> },
-            { path: '/davet', element: <Invitation /> },
-            { path: '/bildiri', element: <Manifesto /> }
-        ]
-    }
-], { basename: '/congress' });
+export const Context = createContext<any[]>([]);
 
 const App = () => {
+    const [pageName, setPageName] = useState('Home');
+
+    let content = <Home />;
+
+    switch(pageName) {
+        case 'Committees':
+            content = <Committees />;
+            break;
+        case 'CongressRegistration':
+            content = <CongressRegistration />;
+            break;
+        case 'Accomodation':
+            content = <Accomodation />;
+            break;
+        case 'Sponsorship':
+            content = <Sponsorship />;
+            break;
+        case 'Contact':
+            content = <Contact />;
+            break;
+        default:
+            content = <Home />;
+            break;
+    }
+
     return (
-        <div className="App">
-            <RouterProvider router={router} />
-        </div>
+        <Context.Provider value={[pageName, setPageName]}>
+            <Layout>
+                {content}
+            </Layout>
+        </Context.Provider>
     )
 }
 
