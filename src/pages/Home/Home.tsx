@@ -20,7 +20,7 @@ const Home = () => {
                 isOverlayed
             />
 
-            <Clock />
+            {/* <Clock /> */}
         </div>
     )
 }
