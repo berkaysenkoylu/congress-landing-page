@@ -7,6 +7,9 @@ import Home from './pages/Home/Home';
 import Accomodation from './pages/Accomodation/Accomodation';
 import Sponsorship from './pages/Sponsorship/Sponsorship';
 import Contact from './pages/Contact/Contact';
+import Paper from './pages/Paper/Paper';
+import Sponsors from './pages/Sponsors/Sponsors';
+import Invitation from './pages/Invitation/Invitation';
 
 export const Context = createContext<any[]>([]);
 
@@ -19,14 +22,23 @@ const App = () => {
         case 'Committees':
             content = <Committees />;
             break;
+        case 'Paper':
+            content = <Paper />;
+            break;
         case 'CongressRegistration':
             content = <CongressRegistration />;
             break;
         case 'Accomodation':
             content = <Accomodation />;
             break;
+        case 'Sponsors':
+            content = <Sponsors />;
+            break;
         case 'Sponsorship':
             content = <Sponsorship />;
+            break
+        case 'Invitation':
+            content = <Invitation />;
             break;
         case 'Contact':
             content = <Contact />;

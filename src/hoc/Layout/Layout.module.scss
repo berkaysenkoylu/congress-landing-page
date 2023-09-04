@@ -7,6 +7,10 @@
     box-shadow: $shadow-dark;
     min-height: 50rem;
 
+    section {
+        width: 100%;
+    }
+
     @media only screen and (max-width: $bp-largest) {
         margin: 0;
     }

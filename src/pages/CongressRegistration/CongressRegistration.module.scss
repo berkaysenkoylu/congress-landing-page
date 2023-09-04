@@ -1,0 +1,102 @@
+@import '../../variables';
+
+.CongressRegistration {
+    @include PageStyle;
+    font-size: $small-font-size;
+
+    h2 {
+        @include TitleStyle;
+        margin-bottom: 2.5rem;
+    }
+
+    h4 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: $small-font-size;
+        text-decoration: underline;
+    }
+
+    h5 {
+        margin-top: 2rem;
+    }
+}
+
+.Table1 {
+    margin: 3rem auto 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    td {
+        border-color: $color-black;
+        border-style: solid;
+        border-width: 1px;
+        font-size: $small-font-size;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    th {
+        border-color: $color-black;
+        border-style: solid;
+        border-width: 1px;
+        font-size: $small-font-size;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    &__UpperHeader {
+        th {
+            font-weight: 700;
+        }
+
+        span {
+            display: block;
+        }
+    }
+
+    &__LowerHeader {
+        th {
+            padding: 1rem;
+        }
+    }
+}
+
+.Table2 {
+    margin: 3rem auto 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+
+    th {
+        border-color: $color-black;
+        border-style: solid;
+        border-width: 1px;
+        font-size: $small-font-size;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+}
+
+.Table1Notes {
+    width: 90%;
+    margin: 2rem auto 0 auto;
+
+    p:last-child {
+        margin-top: 1rem;
+    }
+}
+
+.CenterAlign {
+    text-align: center;
+}
+
+.BoldText {
+    font-weight: 500;
+}
+
+.NormalText {
+    font-weight: 400;
+}

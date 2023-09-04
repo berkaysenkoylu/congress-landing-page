@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import classes from './Home.module.scss';
 import ImageShowcase from '../../components/ImageShowcase/ImageShowcase';
 import Clock from '../../components/Clock/Clock';
+import Invitation from '../Invitation/Invitation';
 
 const Home = () => {
     const { t } = useTranslation();
@@ -19,6 +20,10 @@ const Home = () => {
                 overlaySubTitle={t('Home.OverlaySubTitle')}
                 isOverlayed
             />
+
+            <div className={classes.Home__Invitation}>
+                <Invitation />
+            </div>
 
             {/* <Clock /> */}
         </div>

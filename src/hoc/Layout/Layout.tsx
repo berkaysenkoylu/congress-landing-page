@@ -12,8 +12,6 @@ const Layout = (props: any) => {
                 <Sidebar />
 
                 <section>
-                    {/* <Gallery /> */}
-
                     {props.children}
                 </section>
             </main>

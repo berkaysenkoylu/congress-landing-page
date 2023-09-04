@@ -1,0 +1,56 @@
+@import '../../variables';
+
+.Paper {
+    @include PageStyle;
+
+    &__Note {
+        display: block;
+        text-align: center;
+        font-size: $small-font-size;
+        margin: 1rem 0;
+    }
+
+    &__List1, &__List2 {
+        font-size: $small-font-size;
+        margin: 0 auto;
+
+        li:not(:last-child) {
+            margin-bottom: 5px;
+        }
+
+        li::marker {
+            font-weight: bold;
+        }
+    }
+
+    &__List1 {
+        width: 58%;
+    }
+
+    &__List2 {
+        width: 80%;
+    }
+
+    h2 {
+        @include TitleStyle;
+        margin-bottom: 2.5rem;
+    }
+
+    h4 {
+        margin-top: 4rem;
+        font-size: $small-font-size;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    &__Note2 {
+        margin-top: 3rem;
+        font-size: $small-font-size;
+        text-align: center;
+    }
+
+    &__Presentation {
+        margin-top: 1.5rem;
+        font-size: $small-font-size;
+    }
+}

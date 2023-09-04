@@ -2,14 +2,78 @@
     "Title": "4. Uluslararası Hayvan Besleme Kongresi",
     "Navigation": {
         "Home": "Anasayfa",
+        "Invitation": "Davet",
+        "Paper": "Bildiri",
         "Committees": "Kurullar",
         "CongressRegistration": "Kongre kaydı",
         "Accomodation": "Otel ve salon bilgileri",
+        "Sponsors": "Sponsorlar",
         "Sponsorship": "Sponsorluk",
         "Contact": "İletişim"
     },
     "Home": {
         "OverlayTitle": "4.Uluslararası Hayvan Besleme Kongresi",
         "OverlaySubTitle": "29 Şubat – 3 Mart 2024, Concorde DeLuxe Resort, Lara - Antalya"
+    },
+    "Invitation": {
+        "Title": "<b>Değerli Meslektaşlarımız,</b>",
+        "Par1": "Hayvan Besleme Bilim Derneği Yönetim Kurulu adına sizleri <b>29 Şubat – 3 Mart 2024</b> tarihleri arasında, <b>Antalya</b>’da <b>Concorde DeLuxe Resort, Lara</b> otelde düzenlenecek 4. Uluslararası Hayvan Besleme Kongresi’ne (4. UHBK) davet etmekten kıvanç duyarız.",
+        "Par2": "HBBD <a href='http://www.hayvanbesleme.org.tr'>(http://www.hayvanbesleme.org.tr)</a> olarak ilk 3 kongrede olduğu gibi bu kez de Üniversite–Sanayi işbirliği kapsamında bilgi ve teknolojinin geliştirilmesi, paylaşılması ile yaratacağı katma değerden ülke ekonomisi ve evrensel bilim adına yararlanılması amacıyla yurt dışından bilim insanlarının katılımı ile uluslararası nitelikteki kongremizi bir adım daha ileri taşımayı hedefliyoruz.",
+        "Par3": "Bu niyetle yola çıkarken, 4. UHBK kapsamında yemler, hayvan besleme ve yem teknolojileri alanlarında uzmanlaşan siz değerli üyelerimizi, akademik çevrelerden, bakanlıktan, yem ve hayvancılık sektörlerinden olmak üzere aşağıdaki konuları ele alan sözlü veya poster bildiriler ile bu kongreye katkı yapmaya davet ediyoruz.",
+        "Par4": "4. UHBK’de buluşmak üzere sevgi ve saygılarımızı sunarız.",
+        "Sign1": "<b>Prof. Dr. Nizamettin ŞENKÖYLÜ</b><br>Kongre Başkanı",
+        "Sign2": "<b>Prof. Dr. Şakir Doğan TUNCER</b><br>Organizasyon Komitesi Başkanı"
+    },
+    "Committees": {
+        "Title1": "Kongre Organizasyon Komitesi",
+        "Title2": "Kongre Bilim Komitesi",
+        "StatusChair": "Başkan"
+    },
+    "Paper": {
+        "Title1": "KONGRE OTURUM BAŞLIKLARI",
+        "Title2": "Bildiri Metni veya Özet Yazım Kuralları",
+        "Title3": "Sunum olanakları",
+        "PresentationText": "Kongre salonunda projektör ve bilgisayar bulunacaktır. Bildiri sunum materyali, sunuma ait oturumdan en az 1 saat öncesine kadar ilgili personele teslim edilmelidir.",
+        "Note": "Bildiri metinlerinin aşağıdaki hususlara dikkat edilerek hazırlanması gerekmektedir.",
+        "Note2": "<b>NOT: Yukarıdaki yazım kurallarına uyulması makalenin değerlendirmeye alınması için önem taşımaktadır.</b>",
+        "List1": "<li>Et ve Süt Üretiminde Mevcut Sorunlar ve Çözüm Önerileri (PANEL)</li><li>Ruminant Besleme</li><li>Kanatlı Besleme</li><li>Yemler, Yem Katkıları, Yem Teknolojileri</li><li>Pet ve Diğer Çiftlik Hayvanlarının Beslenmesi</li><li>Süt/ Kırmızı Et Üretiminde Maliyet Analizi ve Template Oluşturulması</li><li>İleri Teknolojiler, NIR Modelleri, ve En İyi Yönetim Uygulamaları</li>",
+        "List2": "<li>Araştırma makalesi bildiriler tam metin olarak 5 sayfayı geçmeyecek ve Türkçe Özet, Abstract, Giriş, Materyal ve Metot, Bulgular, Tartışma ve Sonuç bölümlerini içerecek şekilde hazırlanmalıdır. Özet tarzında olanlar da aynı bölümleri içerecek şekilde hazırlanacak, fakat en az 1 sayfa olacaktır. Derleme bildiriler ise Türkçe özet, abstract, giriş, gelişme ve sonuç bölümlerinden oluşmalıdır.</li><li>Bildiri metinleri Microsoft Word (7.0 veya üzeri) programında Times New Roman ile tek aralıklı yazılmalı, konu başlığında 12 (koyu), yazar adları ve diğer bölümlerde 10 punto kullanılmalıdır. Sayfalarda soldan 4, sağdan 2, üstten 2,5 ve alttan 2 cm boşluk bırakılmalıdır.</li><li>Başlık, kelime ilk harfleri büyük olarak ve 1 satır boşluk verilerek yazar adları unvan olmaksızın yazılmalıdır. Yazar adresleri, sayfa sonunda, 1,2,3 şeklinde numara ve her sayfada yeniden olacak şekilde seçilerek otomatik dip not olarak verilmelidir. Bildiriyi sunacak araştırmacının ismi altı çizilerek vurgulanmalıdır.</li><li>Bildiri metinlerinde kaynak gösterilmesinde, TÜBİTAK Veteriner Hayvancılık Dergisinde belirtilen esaslara (kullanılma sırasına göre numara verme) uyulmalıdır.</li><li>Tablolar word programında otomatik tablo menüsü kullanılarak yapılmalıdır.</li><li>Elektronik belgeler soyadı ve konu başlığı kısaltması şeklinde kaydedilerek yollanmalıdır (Örneğin yilmaz_enzim.doc)</li><li>Bildirisi poster olarak seçilmiş olan araştırıcılar, posterlerini 70×100 cm boyutunda (dikey konumda), 1-1,5 m’den okunabilecek şekilde hazırlayarak kendilerine bildirilecek tarihte ve saatte panolarına asmış olmalıdırlar.</li><li>Posterler panel sonrası kahve arasında topluca gezilecektir. Poster sahipleri kahve aralarında poster başında olacaklardır. Posterler kongre boyunca asılı kalacak ve kongre bitişinde kaldırılacaktır.<br>Sözlü bildiri yapacak araştırmacılar, sunumlarını 16×9 (geniş ekran) formatında sunum yapacak şekilde düzenlemelidir.<br>Verilen poster numarasına göre poster alanındaki panolara asmış olmalıdırlar.</li>"
+    },
+    "Registration": {
+        "Title1": "Kongreye Kayıt, Kongre Ücreti ve Konaklama",
+        "Title2": "Paket Program Kapsamında Sunulacak Hizmetler:",
+        "Title3": "Kongre-Otel Ücreti İçin Banka Bilgileri",
+        "Title4": "Kongre Dili",
+        "Title5": "Bildiriler",
+        "Title6": "Bildiri için Önemli Tarihler",
+        "Text1": "Kongreye paket program kapsamında katılım söz konusudur. Paket program <b>3 gece konaklamalı</b> kongre katılımı için geçerlidir. Konaklama, 29 Şubat giriş ve 3 Mart çıkış olmak üzere 3 (üç) geceliktir. Paket programa göre dernek üyelerimize ve diğer katılımcılara oda tipine göre uygulanacak günlük konaklama ücretleri aşağıdaki tabloda yer almaktadır. Erken kayıt yaptıracak katılımcılara avantaj sağlanmıştır. İki yetişkin yanında kalacak 0-9.99 yaş 1. çocuk ücretsiz, 0-2.99 yaş 2. çocuk ücretsiz, 3-9.99 yaş 2. çocuk  %50 indirimlidir.",
+        "Table1Title": "Oda Tipi ve Kayıt Dönemine Göre <u>3 Günlük Paket</u> Konaklama Ücretleri (EURO olarak KDV ve %2 Konaklama Vergisi dahil):",
+        "RoomType": "ODA TİPİ",
+        "EarlyReg": "ERKEN KAYIT",
+        "LateReg": "GEÇ KAYIT",
+        "Date1": "(18 Aralık 2023’e kadar)",
+        "Date2": "(19 Aralık-16 Şubat 2024)",
+        "Member": "Dernek Üyesi",
+        "NoMember": "Üye Olmayan",
+        "RoomCap1": "Standart odada tek kişi",
+        "RoomCap2": "Standart 2 kişilik odada kişi başı",
+        "RoomCap3": "Standart 3 kişilik odada kişi başı",
+        "Table1Note1": "- Konaklamasız dış katılım 150 € (öğle yemeği dahil)",
+        "Table1Note2": "- Sözlü bildirisi kabul edilen katılımcılara 100 €, poster bildirisi kabul edilenlere ise 80 € destek sağlanacaktır. Bu indirimler sadece bildiriyi sunacak kişiye uygulanacaktır.",
+        "PackageContent": "Paket programda, “Ultra Her Şey Dahil” konsepti geçerli olacaktır.<br>Otele giriş 29 Şubat 2024 günü saat 14.00; çıkış ise 3 Mart 2024 günü saat 12:00 olup odalar en geç bu saatte teslim edilecektir. Sabah saatlerinde giriş yaparak kahvaltı alanlar otele kişi başı 15€ ödeyecektir. Çıkış günü 12:00’den sonra tesisi kullanmak isteyen katılımcılardan 16:00’ya kadar, tesis kullanım ücreti olarak kişi başı günlük 25.-Euro (öğle yemeği dahil) ekstra ücret alınacaktır. 16:00’ dan sonra tesiste kalan katılımcılardan yukarıda belirtilen konaklama ücretleri alınacaktır.<br>Tabloda verilen fiyatlara kayıt, konaklama, kongre yaka kartı, kongre çantası, bilimsel oturumlara katılım ve çay-kahve ikramları dahildir.<br>Uçakla gelenler için havalimanı transferleri belirli saatlerde sağlanacaktır.",
+        "Payment1": "HAYVAN BESLEME BİLİM DERNEĞİ",
+        "Payment2": "İş Bankası Kızılay - Ankara Şubesi Euro hesabı",
+        "Payment3": "<b>IBAN: TR54 0006 4000 0024 2141 5357 85</b>",
+        "Payment4": "Katılımcılar dekont bilgilerini <a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a> adresine de göndereceklerdir.",
+        "Language": "Kongre dili Türkçe ve İngilizcedir.<br>Meslektaşlarımıza istekleri üzerine davet mektubu verilebilecektir.",
+        "Abstract1": "Bildiriler sözlü ve poster sunumu şeklinde olacaktır. Sözlü seçilen bildiriler için ayrılan süre 15 dakika olacaktır. Gönderilen bildiri metinleri bilimsel kurul tarafından değerlendirilerek sözlü veya poster sunum olmasına karar verilecektir.",
+        "Abstract2": "Bildiriler Dernek (<a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>) adresine elektronik posta ile yollanmalıdır.",
+        "Table2Row1Col1": "Bildiri tam metin gönderme son tarih",
+        "Table2Row2Col1": "Bildiri değerlendirme son tarih",
+        "Table2Row3Col1": "Bildirili katılımcılar için kongre ücretini son yatırma tarihi",
+        "Table2Row1Col2": "20 Kasım 2023",
+        "Table2Row2Col2": "11 Aralık 2023",
+        "Table2Row3Col2": "18 Aralık 2023",
+        "Table2Note": "<b>Kongre ücretini yatırmayanların, bildiri metinleri kongre kitabında ve kongre web’te yer almayacaktır.</b>"
     }
 }

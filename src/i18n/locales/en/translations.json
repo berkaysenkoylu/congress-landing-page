@@ -2,14 +2,78 @@
     "Title": "4th International Animal Nutrition Congress",
     "Navigation": {
         "Home": "Home",
+        "Invitation": "Invitation",
+        "Paper": "Paper",
         "Committees": "Committees",
         "CongressRegistration": "Registration",
         "Accomodation": "Hotel and hall info",
+        "Sponsors": "Sponsors",
         "Sponsorship": "Sponsorship",
         "Contact": "Contact"
     },
     "Home": {
         "OverlayTitle": "4th International Animal Nutrition Congress",
         "OverlaySubTitle": "29th February - 3rd March 2024, Concorde DeLuxe Resort, Lara - Antalya / Turkiye"
+    },
+    "Invitation": {
+        "Title": "<b>Dear Colleagues,</b>",
+        "Par1": "On behalf of the Executive Board of the Animal Nutrition Science Association, we are glad to invite you to the 4th International Animal Nutrition Congress to be held between <b>29th February - 3rd March 2024</b> at <b>Concorde Deluxe Resort Hotel, Lara</b>, Antalya/Türkiye.",
+        "Par2": "Animal Nutrition Science Association <a href='http://www.hayvanbesleme.org.tr'>(http://www.hayvanbesleme.org.tr)</a> as in the first 3 congresses’ is targeting to promote and increase the scientific level of the congress by introducing advanced knowledge and technology within the context of university-industry collaboration and thereby make use of added value for the benefit of the economy and universal science.",
+        "Par3": "Our intention is to encourage you coming either from the academy, industry, or government sectors to contribute to the congress with your oral or poster presentations and bring forward your latest findings in the areas of raw materials, feed additives, nutrition (ruminant, poultry, and other farm and pet animals), feed technology and advanced technologies such as digital nutrition.",
+        "Par4": "We are looking forward to meeting you in the 4th International Animal Nutrition Congress.",
+        "Sign1": "<b>Prof. Dr. Nizamettin ŞENKÖYLÜ</b><br>Congress Chair",
+        "Sign2": "<b>Prof. Dr. Şakir Doğan TUNCER</b><br>Organization Committee Chair"
+    },
+    "Committees": {
+        "Title1": "Congress Organization Committee",
+        "Title2": "Congress Science Committee",
+        "StatusChair": "Chair"
+    },
+    "Paper": {
+        "Title1": "CONGRESS SESSION HEADINGS",
+        "Title2": "Guidelines for Manuscript Preparation",
+        "Title3": "Facilities for Speakers",
+        "PresentationText": "There will be a projector and laptop in the congress hall. Speakers are expected to prepare their presentations in PowerPoint form and must be handed to the IT person at least one hour before the presentation.",
+        "Note": "The following guidelines should be considered in writing the manuscript.",
+        "Note2": "<b>NOTE: Manuscripts that comply with the above rules will be evaluated.</b>",
+        "List1": "<li>Current challenges in milk and red meat production and solutions (PANEL)</li><li>Ruminant nutrition</li><li>Poultry nutrition</li><li>Feed, feed additives, feed technologies</li><li>Pet and other farm animal’s nutrition</li><li>Cost factors in milk and red meat production and template settings</li><li>Advanced technologies, NIR Models, and the best management practices</li>",
+        "List2": "<li>Research papers should be prepared in a way to include the sections of Turkish abstract, English abstract, introduction, material and methods, results, discussion, conclusion, and references. Review papers should include Turkish abstract, English abstract, introduction and conclusion. Full text papers should not exceed 5 pages. Abstract papers should be prepared to include the sections of introduction, aim, material and methods, results, and conclusion, but abstracts should be at least 1 page. Turkish and English keywords should be added at the end of the abstract with a minimum of 3 and a maximum of 6 words.</li><li>Papers should be written in Microsoft Word (7.0 or above) in Times New Roman and single-spaced. 12 font size (bold) should be used in the title, and 10 font size for author names and other sections. The margins should be 4 cm from the left, 2 cm from the right, 2.5 cm from the top, and 2 cm from the bottom of the pages.</li><li>The first letters of the title should be written in capital letters and the names of the authors should be written without a title, leaving one line space. Author addresses should be numbered as 1,2,3 at the end of the page as automatic footnotes. The name of the participant who will present the paper should be underlined.</li><li>References should be numbered in brackets within the article and listed in order of their first appearance in the text as seen in the TÜBİTAK Turkish Journal of Veterinary and Animal Sciences.</li><li>References should be formatted as in the TÜBİTAK Turkish Journal of Veterinary and Animal Sciences.</li><li>Tables should be made using the automatic table menu in the word program.</li><li>Papers should be sent to the Association electronic mail of ‘<a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>’ and recorded as surname and subject title abbreviation (for example, yilmaz_enzim.doc)</li><li>Participants who will make oral presentations should arrange their presentations in 16x9 (widescreen) format.</li><li>Participants whose papers have been selected as posters should have prepared their posters in 70x100 cm (vertical position) and readable from 1-1.5 m. They should be hung them on the boards in the poster area according to the given poster number on the date and time to be notified.</li><li>Posters will be visited collectively during the coffee break after the panel. Poster owners should be in front of the posters during the coffee breaks. Posters will hang throughout the congress and will be removed at the end of the congress.</li>"
+    },
+    "Registration": {
+        "Title1": "Congress Registration and Accommodation",
+        "Title2": "What does Ultra-All-Inclusive cover?",
+        "Title3": "Registration bank account",
+        "Title4": "Congress Language",
+        "Title5": "Presentations",
+        "Title6": "Deadlines for the Manuscripts",
+        "Text1": "Congress participation and registration is for a 3-day room package. Hotel check-in is on 29th February and check-out is on 3rd March 2024 for a 3-night stay. Room prices package has been shown in the below table depending upon membership of the Association and early registration. Early registration is more advantageous at 10% lower than late registration prices. For children accompanying their parents, the first kid at 0-9.99 age is free, the second kid at 0-2.99 age is free and if 3-9.99 age the second kid is 50% reduced.",
+        "Table1Title": "Room package registration (3 days accommodation) prices in EURO according to membership, room type, and registration time (including VIT and 2% accommodation tax)",
+        "RoomType": "Room type",
+        "EarlyReg": "Early Registration",
+        "LateReg": "Late Registration",
+        "Date1": "(before 18th December)",
+        "Date2": "(19th December-16th February)",
+        "Member": "Member",
+        "NoMember": "Non Member",
+        "RoomCap1": "Single room (per person)",
+        "RoomCap2": "Double room (per person)",
+        "RoomCap3": "Triple room (per person)",
+        "Table1Note1": "- Participation without accommodation is 150 € (lunch included)",
+        "Table1Note2": "- For those whose presentation accepted as oral 100 €, and for poster presentation 80 € support will be provided by the Association. These support will only be allocated to the speaker who will make the presentation. An invitation letter can be given to the participants upon their request.",
+        "PackageContent": "Hotel check-in is on 29th February at 14:00 and check-out is on 3rd March 2024 at 12:00 with room clearance at the latest. Those who enter the hotel at the early morning and take breakfast will have to pay 15€ and check day who want to take lunch and can stay until 16:00 is 25€. Participants can also extend their stay before/after the event for the same reduced prices.  The ultra-All-Inclusive concept covers daily meals, refreshments and snacks, room bar beverages, non-alcoholic and alcoholic local and foreign (except Champaign and other luxury foreign) drinks.<br>Registration package price also includes congress registration, badges, beg, participation of the congress session, and coffee breaks. Transfers from/and to the airport on the 29th of February and on the 3rd March will be available for certain hours by bus shuttle.",
+        "Payment1": "HAYVAN BESLEME BİLİM DERNEĞİ",
+        "Payment2": "İş Bankası Kızılay - Ankara Şubesi Euro account",
+        "Payment3": "<b>IBAN: TR54 0006 4000 0024 2141 5357 85</b>",
+        "Payment4": "Participants will also have to send the e-receipt of their payment to <a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>.",
+        "Language": "Congress language is in Turkish and English.",
+        "Abstract1": "Manuscripts submitted for the congress will be evaluated as oral or poster presentation by the Scientific Committee.  The oral presentation will be allowed for 15 min including Q/A. There will be free time during coffee break between each session for poster presentation.",
+        "Abstract2": "Manuscripts of oral or poster presentations will not be included in the Congress Program and Congress Web Site unless they pay for their registration in the above date.",
+        "Table2Row1Col1": "Manuscripts full text deadline",
+        "Table2Row2Col1": "Full text evaluation deadline",
+        "Table2Row3Col1": "Deadline for payment of participants having presentations",
+        "Table2Row1Col2": "20th November 2023",
+        "Table2Row2Col2": "11th December 2023",
+        "Table2Row3Col2": "18th December 2023",
+        "Table2Note": "Papers of those who has not paid the congress fee will not be included in the congress book and the congress web."
     }
 }

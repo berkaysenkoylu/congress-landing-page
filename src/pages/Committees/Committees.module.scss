@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.Committees {
+    padding: 1rem;
+
+    h2 {
+        @include TitleStyle;
+        margin-bottom: 1.5rem;
+    }
+
+    &__Organization, &__Science {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4rem;
+        padding: 2rem;
+    }
+
+    &__Organization {
+        margin-bottom: 5rem;
+    }
+}

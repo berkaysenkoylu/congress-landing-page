@@ -14,8 +14,16 @@ const NavList = (props: any) => {
                 label={t("Navigation.Home")}
             />
             <NavigationItem
+                pageName='Invitation'
+                label={t("Navigation.Invitation")}
+            />
+            <NavigationItem
                 pageName='Committees'
                 label={t("Navigation.Committees")}
+            />
+            <NavigationItem
+                pageName='Paper'
+                label={t("Navigation.Paper")}
             />
             <NavigationItem
                 pageName='CongressRegistration'
@@ -28,6 +36,10 @@ const NavList = (props: any) => {
             <NavigationItem
                 pageName='Sponsorship'
                 label={t("Navigation.Sponsorship")}
+            />
+            <NavigationItem
+                pageName='Sponsors'
+                label={t("Navigation.Sponsors")}
             />
             <NavigationItem
                 pageName='Contact'

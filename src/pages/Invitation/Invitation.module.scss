@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.Invitation {
+    border: 2px solid $main-color-dark;
+    background-color: rgba($main-color, 0.1);
+    border-radius: 8px;
+    font-size: $default-font-size;
+    @include PageStyle;
+
+    & > p:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+
+    &__Signature {
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
