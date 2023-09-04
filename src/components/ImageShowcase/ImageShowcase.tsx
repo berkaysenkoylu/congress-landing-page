@@ -25,7 +25,7 @@ const ImageShowcase = (props: ImageShowcasePropsType) => {
     return (
         <figure className={classes.ImageShowcase}>
             {isOverlayed ? <div className={classes.ImageShowcase__Overlay}></div> : null}
-            {isOverlayed ? renderOverlayText() : null}
+            {isOverlayed && overlayTitle ? renderOverlayText() : null}
             <img alt={alt} src={imageUrl} />
         </figure>
     );

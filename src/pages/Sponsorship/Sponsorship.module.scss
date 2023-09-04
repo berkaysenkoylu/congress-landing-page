@@ -1,0 +1,49 @@
+@import '../../variables';
+
+.Sponsorship {
+    @include PageStyle;
+    font-size: $small-font-size;
+
+    h2, h3 {
+        @include TitleStyle;
+        margin-bottom: 2.5rem;
+    }
+
+    h3 {
+        font-size: $title-x-small-font-size;
+    }
+}
+
+.Table {
+    width: 75%;
+    margin: 3rem auto 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+
+    th {
+        border-color: $color-black;
+        border-style: solid;
+        border-width: 1px;
+        font-size: $small-font-size;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    thead th {
+        font-weight: 700;
+    }
+
+    tbody th {
+        font-weight: 400;
+    }
+}
+
+.CenterAlign {
+    text-align: center;
+}
+
+.MarginBottom4 {
+    margin-bottom: 4rem;
+}

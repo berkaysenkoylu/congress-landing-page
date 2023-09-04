@@ -6,7 +6,7 @@
         "Paper": "Paper",
         "Committees": "Committees",
         "CongressRegistration": "Registration",
-        "Accomodation": "Hotel and hall info",
+        "Accomodation": "Congress Venue",
         "Sponsors": "Sponsors",
         "Sponsorship": "Sponsorship",
         "Contact": "Contact"
@@ -75,5 +75,35 @@
         "Table2Row2Col2": "11th December 2023",
         "Table2Row3Col2": "18th December 2023",
         "Table2Note": "Papers of those who has not paid the congress fee will not be included in the congress book and the congress web."
+    },
+    "CongressVenue": {
+        "MapsTitle": "LOCATION",
+        "MapsInfoLink": "Show it on: <a target='blank' href='https://www.google.com/maps/place/Concorde+De+Luxe+Resort/@36.8803512,30.826497,12z/data=!4m9!3m8!1s0x14c382b9802d5967:0x59253862d30b5663!5m2!4m1!1i2!8m2!3d36.8560348!4d30.8796377!16s%2Fm%2F0641pm3?hl=en&entry=ttu'>MAPS</a>",
+        "HallPlan": "HALL AND FOYER PLAN"
+    },
+    "Sponsorship": {
+        "Title": "Exhibition-Advertisement and Sponsorship",
+        "Text": "Sponsors will be advertised and promoted on the Congress website, on the backdrop during the congress sessions, on the Congress program booklet, congress website and in the e-book of the congress depending upon the level of sponsorship indicated in the below table. Besides, a stand (table and a chair in the foyer) will be provided. Please apply for sponsorship to the Organizing Committee (<a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>).",
+        "TableTitle": "SPONSORSHIP CATEGORIES",
+        "TableRow1Col1": "Category",
+        "TableRow1Col2": "Support (EURO)",
+        "TableRow1Col3": "Benefits",
+        "TableRow2Col1": "DIAMOND",
+        "TableRow2Col3": "3 free room and a stand",
+        "TableRow3Col1": "PLATINIUM",
+        "TableRow3Col3": "2 free room and a stand",
+        "TableRow4Col1": "GOLD",
+        "TableRow4Col3": "1 free room and a stand",
+        "TableRow5Col1": "SOLVER",
+        "StandText": "A free stand",
+        "StandRoomText": "A free stand and a room",
+        "TableRow6Col1": "BRONZ",
+        "TableRow7Col1": "Congress Bag",
+        "TableRow8Col1": "Congress Batch",
+        "TableRow9Col1": "Notebook-Pen-Water",
+        "TableRow10Col1": "Simultaneous translation",
+        "TableRow11Col1": "Transfer",
+        "TableRow12Col1": "Direction flags",
+        "SoldText": "Sold"
     }
 }

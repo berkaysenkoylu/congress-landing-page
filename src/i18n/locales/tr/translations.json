@@ -6,7 +6,7 @@
         "Paper": "Bildiri",
         "Committees": "Kurullar",
         "CongressRegistration": "Kongre kaydı",
-        "Accomodation": "Otel ve salon bilgileri",
+        "Accomodation": "Kongre yeri",
         "Sponsors": "Sponsorlar",
         "Sponsorship": "Sponsorluk",
         "Contact": "İletişim"
@@ -75,5 +75,35 @@
         "Table2Row2Col2": "11 Aralık 2023",
         "Table2Row3Col2": "18 Aralık 2023",
         "Table2Note": "<b>Kongre ücretini yatırmayanların, bildiri metinleri kongre kitabında ve kongre web’te yer almayacaktır.</b>"
+    },
+    "CongressVenue": {
+        "MapsTitle": "KONUM",
+        "MapsInfoLink": "<a target='blank' href='https://www.google.com/maps/place/Concorde+De+Luxe+Resort/@36.8803512,30.826497,12z/data=!4m9!3m8!1s0x14c382b9802d5967:0x59253862d30b5663!5m2!4m1!1i2!8m2!3d36.8560348!4d30.8796377!16s%2Fm%2F0641pm3?hl=en&entry=ttu'>MAPS</a>'da gör",
+        "HallPlan": "SALON VE FUAYE PLANI"
+    },
+    "Sponsorship": {
+        "Title": "Sergiler – Reklam ve Sponsorluk",
+        "Text": "Kongrede sponsorluk yapanlar destek miktarlarına göre derecelendirilerek, kongre elektronik kitabı ve program kitapçığında yer alacaklardır. Kongreye katılmak ve ürünlerini sergilemek isteyen sponsor firmalar için istekleri doğrultusunda kongre salonu fuayesinde stant alanı sağlanacaktır. Kongre sponsorluk detayları için kongre başkanlığına müracaat edilmelidir. Kongre kitabına reklam da kabul edilebilecektir. Sponsorluk için Organizasyon Komitesine (<a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>) mesaj atınız lütfen.",
+        "TableTitle": "SPONSORLUK KATEGORİLERİ",
+        "TableRow1Col1": "Kategoriler",
+        "TableRow1Col2": "Sponsorluk (Euro)",
+        "TableRow1Col3": "Avantajlar",
+        "TableRow2Col1": "ELMAS",
+        "TableRow2Col3": "3 oda ve stand",
+        "TableRow3Col1": "PLATİN",
+        "TableRow3Col3": "2 oda ve stand",
+        "TableRow4Col1": "ALTIN",
+        "TableRow4Col3": "1 oda ve stand",
+        "TableRow5Col1": "GÜMÜŞ",
+        "StandText": "1 stand",
+        "StandRoomText": "1 stand 1 oda",
+        "TableRow6Col1": "BRONZ",
+        "TableRow7Col1": "Kongre Çantası",
+        "TableRow8Col1": "Kongre Yaka Kartı",
+        "TableRow9Col1": "Defter-Kalem-Su",
+        "TableRow10Col1": "Simultane Tercüme",
+        "TableRow11Col1": "Transfer",
+        "TableRow12Col1": "Yön",
+        "SoldText": "verildi"
     }
 }
