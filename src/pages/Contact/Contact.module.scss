@@ -1,0 +1,11 @@
+@import '../../variables';
+
+.Contact {
+    @include PageStyle;
+    font-size: $small-font-size;
+
+    h2 {
+        @include TitleStyle;
+        margin-bottom: 1.5rem;
+    }
+}

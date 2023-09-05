@@ -13,7 +13,12 @@
     },
     "Home": {
         "OverlayTitle": "4.Uluslararası Hayvan Besleme Kongresi",
-        "OverlaySubTitle": "29 Şubat – 3 Mart 2024, Concorde DeLuxe Resort, Lara - Antalya"
+        "OverlaySubTitle": "29 Şubat – 3 Mart 2024, Concorde DeLuxe Resort, Lara - Antalya",
+        "MonthText": "Ay",
+        "DayText": "Gün",
+        "HourText": "Saat",
+        "MinuteText": "Dakika",
+        "SecondText": "Saniye"
     },
     "Invitation": {
         "Title": "<b>Değerli Meslektaşlarımız,</b>",
@@ -104,6 +109,34 @@
         "TableRow10Col1": "Simultane Tercüme",
         "TableRow11Col1": "Transfer",
         "TableRow12Col1": "Yön",
-        "SoldText": "verildi"
+        "SoldText": "Verildi"
+    },
+    "Sponsors": {
+        "Title": "KONGRE SPONSORLARI",
+        "TableRow1Col1": "Kategoriler",
+        "TableRow1Col2": "Sponsor",
+        "TableRow1Col3": "Sponsorluk (Euro)",
+        "TableRow1Col4": "Avantajlar",
+        "TableRow2Col1": "ELMAS",
+        "TableRow2Col4": "3 oda ve stand",
+        "TableRow3Col1": "PLATİN",
+        "TableRow3Col4": "2 oda ve stand",
+        "TableRow4Col1": "ALTIN",
+        "TableRow4Col4": "1 oda ve stand",
+        "TableRow5Col1": "GÜMÜŞ",
+        "StandText": "1 stand",
+        "StandRoomText": "1 stand 1 oda",
+        "TableRow6Col1": "BRONZ",
+        "TableRow7Col1": "Kongre Çantası",
+        "TableRow8Col1": "Kongre Yaka Kartı",
+        "TableRow9Col1": "Defter-Kalem-Su",
+        "TableRow10Col1": "Simultane Tercüme",
+        "TableRow11Col1": "Transfer",
+        "TableRow12Col1": "Yön",
+        "SoldText": "Verildi"
+    },
+    "Contact": {
+        "Title": "İletişim",
+        "ContactText": "Kongre ile ilgili güncel bilgiler ve önemli duyurular, Hayvan Besleme Bilim Derneğinin web sayfasında (<a href='https://www.hayvanbesleme.org.tr/'>https://www.hayvanbesleme.org.tr/</a>) adresinden ve WhatsApp (HBB.dernek.üyeleri)’tan izlenebilir."
     }
 }

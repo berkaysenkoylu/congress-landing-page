@@ -1,137 +1,124 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
-import './Clock.scss';
+import classes from './Clock.module.scss';
+import Segment from './Segment/Segment';
+
+const TARGET_DATE = '2024-02-29';
+
+interface TimeRemainingType {
+    seconds: number
+    minutes: number
+    hours: number
+    days: number
+    months: number
+}
 
 const Clock = () => {
-    const [count, setCount] = useState(60);
-
+    const { t } = useTranslation();
+    const [timeRemaining, setTimeRemaining] = useState<TimeRemainingType>();
     const countdownRef = useRef<ReturnType<typeof setInterval>>();
-    const firstDigitRef = useRef<HTMLDivElement>(null);
-    const secondDigitRef = useRef<HTMLDivElement>(null);
-
-    const getTimeSegmentElements = (segmentElement: HTMLElement) => {
-        const segmentDisplay = segmentElement?.querySelector(
-            '.segment-display'
+    const containerRef = useRef<HTMLDivElement>(null);
+    const getTimeRemaining = useCallback(() => {
+        const targetDateTime = (new Date(TARGET_DATE)).getTime();
+        const nowTime = Date.now();
+        const complete = nowTime >= targetDateTime;
+        
+        if (complete) {
+            return {
+                complete,
+                seconds: 0,
+                minutes: 0,
+                hours: 0,
+                days: 0,
+                months: 0
+            };
+        }
+        
+        const secondsRemaining = Math.floor(
+            (targetDateTime - nowTime) / 1000
         );
-        const segmentDisplayTop = segmentDisplay?.querySelector(
-            '.segment-display__top'
-        );
-        const segmentDisplayBottom = segmentDisplay?.querySelector(
-            '.segment-display__bottom'
-        );
-      
-        const segmentOverlay = segmentDisplay?.querySelector(
-            '.segment-overlay'
-        );
-        const segmentOverlayTop = segmentOverlay?.querySelector(
-            '.segment-overlay__top'
-        );
-        const segmentOverlayBottom = segmentOverlay?.querySelector(
-            '.segment-overlay__bottom'
-        );
-      
+        const months = Math.floor(secondsRemaining / 60 / 60 / 24 / 30);
+        const days = Math.floor(secondsRemaining / 60 / 60 / 24) % 30;
+        const hours = Math.floor(secondsRemaining / 60 / 60) % 24;
+        const minutes =
+            (Math.floor(secondsRemaining / 60) - hours * 60) % 60;
+        const seconds = secondsRemaining % 60;
+        
         return {
-          segmentDisplayTop,
-          segmentDisplayBottom,
-          segmentOverlay,
-          segmentOverlayTop,
-          segmentOverlayBottom,
+            complete,
+            seconds,
+            minutes,
+            hours,
+            days,
+            months
         };
+    }, []);
+
+    const customStyle = {
+        marginTop: `-${Math.floor((containerRef.current?.scrollHeight || 0) / 2) + 8}px`
     }
 
-    const updateTimeSegment = useCallback((segmentElement: HTMLElement, timeValue: number) => {
+    useEffect(() => {
         const {
-            segmentDisplayTop,
-            segmentDisplayBottom,
-            segmentOverlay,
-            segmentOverlayTop,
-            segmentOverlayBottom,
-        } = getTimeSegmentElements(segmentElement);
+            seconds,
+            minutes,
+            hours,
+            days,
+            months
+        } = getTimeRemaining();
 
-        if (parseInt((segmentDisplayTop?.textContent as string), 10) === timeValue) {
-            return;
-        }
-
-        segmentOverlay?.classList.add('flip');
-
-        if (segmentDisplayTop && segmentOverlayBottom) {
-            segmentDisplayTop.textContent = timeValue.toString();
-            segmentOverlayBottom.textContent = timeValue.toString();
-        }
-
-        function finishAnimation(this: any) {
-            segmentOverlay?.classList.remove('flip');
-
-            if (segmentDisplayBottom && segmentOverlayTop) {
-                segmentDisplayBottom.textContent = timeValue.toString();
-                segmentOverlayTop.textContent = timeValue.toString();
-            }
-        
-            this.removeEventListener(
-              'animationend',
-              finishAnimation
-            );
-          }
-
-          segmentOverlay?.addEventListener(
-            'animationend',
-            finishAnimation
-          );
-    }, [])
-
-    const updateTimeSection = useCallback(() => {
-        const firstNumber = Math.floor(count / 10) || 0;
-        const secondNumber = count % 10 || 0;
-
-        updateTimeSegment(firstDigitRef.current as HTMLElement, firstNumber);
-        updateTimeSegment(secondDigitRef.current as HTMLElement, secondNumber);
-
-        return false;
-    }, [count, updateTimeSegment]);
+        setTimeRemaining({
+            seconds,
+            minutes,
+            hours,
+            days,
+            months
+        });
+    }, [getTimeRemaining]);
 
     useEffect(() => {
         countdownRef.current = setInterval(() => {
-            const isComplete = updateTimeSection();
+            const {
+                seconds,
+                minutes,
+                hours,
+                days,
+                months
+            } = getTimeRemaining();
 
-            if (isComplete) {
-                clearInterval(countdownRef.current);
-            }
-
-            setCount(prevState => prevState - 1);
+            setTimeRemaining({
+                seconds,
+                minutes,
+                hours,
+                days,
+                months
+            });
         }, 1000);
-
-        return () => {
-            clearInterval(countdownRef.current);
-        }
-    }, [updateTimeSection]);
+    }, [getTimeRemaining]);
 
     return (
-        <div className="countdown">
-            <div className="time-section" id="hours">
-                <div className="time-group">
-                    <div className="time-segment" ref={firstDigitRef}>
-                        <div className="segment-display">
-                            <div className="segment-display__top"></div>
-                            <div className="segment-display__bottom"></div>
-                            <div className="segment-overlay">
-                                <div className="segment-overlay__top"></div>
-                                <div className="segment-overlay__bottom"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="time-segment" ref={secondDigitRef}>
-                        <div className="segment-display">
-                            <div className="segment-display__top"></div>
-                            <div className="segment-display__bottom"></div>
-                            <div className="segment-overlay">
-                                <div className="segment-overlay__top"></div>
-                                <div className="segment-overlay__bottom"></div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                <p>Hours</p>
-            </div>
+        <div className={classes.Clock} ref={containerRef} style={customStyle}>
+            <Segment
+                label={t('Home.MonthText')}
+                value={timeRemaining?.months as number}
+            />
+            <Segment
+                label={t('Home.DayText')}
+                value={timeRemaining?.days as number}
+            />
+            <Segment
+                label={t('Home.HourText')}
+                value={timeRemaining?.hours as number}
+            />
+            <Segment
+                label={t('Home.MinuteText')}
+                value={timeRemaining?.minutes as number}
+            />
+            <Segment
+                label={t('Home.SecondText')}
+                value={timeRemaining?.seconds as number}
+            />
         </div>
     )
 }

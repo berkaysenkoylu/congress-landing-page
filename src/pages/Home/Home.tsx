@@ -21,11 +21,11 @@ const Home = () => {
                 isOverlayed
             />
 
+            <Clock />
+
             <div className={classes.Home__Invitation}>
                 <Invitation />
             </div>
-
-            {/* <Clock /> */}
         </div>
     )
 }

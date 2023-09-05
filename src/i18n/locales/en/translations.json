@@ -13,7 +13,12 @@
     },
     "Home": {
         "OverlayTitle": "4th International Animal Nutrition Congress",
-        "OverlaySubTitle": "29th February - 3rd March 2024, Concorde DeLuxe Resort, Lara - Antalya / Turkiye"
+        "OverlaySubTitle": "29th February - 3rd March 2024, Concorde DeLuxe Resort, Lara - Antalya / Turkiye",
+        "MonthText": "Months",
+        "DayText": "Days",
+        "HourText": "Hours",
+        "MinuteText": "Minutes",
+        "SecondText": "Seconds"
     },
     "Invitation": {
         "Title": "<b>Dear Colleagues,</b>",
@@ -105,5 +110,33 @@
         "TableRow11Col1": "Transfer",
         "TableRow12Col1": "Direction flags",
         "SoldText": "Sold"
+    },
+    "Sponsors": {
+        "Title": "CONGRESS SPONSORS",
+        "TableRow1Col1": "Category",
+        "TableRow1Col2": "Sponsor",
+        "TableRow1Col3": "Sponsorship (Euro)",
+        "TableRow1Col4": "Benefits",
+        "TableRow2Col1": "ELMAS",
+        "TableRow2Col4": "3 rooms and stand",
+        "TableRow3Col1": "PLATİN",
+        "TableRow3Col4": "2 rooms and stand",
+        "TableRow4Col1": "ALTIN",
+        "TableRow4Col4": "A room and stand",
+        "TableRow5Col1": "GÜMÜŞ",
+        "StandText": "A stand",
+        "StandRoomText": "A stand and a room",
+        "TableRow6Col1": "BRONZ",
+        "TableRow7Col1": "Congress Bag",
+        "TableRow8Col1": "Congress Batch",
+        "TableRow9Col1": "Notebook-Pen-Water",
+        "TableRow10Col1": "Simultaneous translation",
+        "TableRow11Col1": "Transfer",
+        "TableRow12Col1": "Direction flags",
+        "SoldText": "Sold"
+    },
+    "Contact": {
+        "Title": "Contact",
+        "ContactText": "Current information and announcements will be followed from the website of the congress: <a href='https://www.hayvanbesleme.org.tr/congress/'>https://www.hayvanbesleme.org.tr/congress/</a> and via WhatsApp: HBB.dernek.üyeleri"
     }
 }

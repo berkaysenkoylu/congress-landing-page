@@ -1,0 +1,17 @@
+@import '../../variables';
+
+.Clock {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 1rem 2rem;
+    border: 1px solid $color-black;
+    border-radius: 8px;
+    margin: 0 auto 0 auto;
+    background-color: $color-white;
+    z-index: 111;
+    box-shadow: 0px 0px 6px 0px rgba($color-black, 0.75);
+}
