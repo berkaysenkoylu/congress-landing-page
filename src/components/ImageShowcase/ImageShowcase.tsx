@@ -6,20 +6,45 @@ interface ImageShowcasePropsType {
     imageUrl: string
     alt: string
     isOverlayed?: boolean
+    overlayTextPosition?: 'Top' | 'Mid' | 'Bottom'
     overlayTitle?: string
     overlaySubTitle?: string
 }
 
 const ImageShowcase = (props: ImageShowcasePropsType) => {
-    const { alt, imageUrl, isOverlayed, overlayTitle, overlaySubTitle } = props;
+    const { alt, imageUrl, isOverlayed, overlayTitle, overlaySubTitle, overlayTextPosition } = props;
+
+    let overlayTextStyle = {
+        top: '50%'
+    }
 
     const renderOverlayText = () => {
         return (
-            <div className={classes.ImageShowcase__OverlayText}>
+            <div className={classes.ImageShowcase__OverlayText} style={overlayTextStyle}>
                 <h2>{overlayTitle}</h2>
                 <p>{overlaySubTitle}</p>
             </div>
         )
+    }
+
+    switch (overlayTextPosition) {
+        case 'Top':
+            overlayTextStyle = {
+                top: '15%'
+            };
+            break;
+        case 'Mid':
+            overlayTextStyle = {
+                top: '50%'
+            };
+            break;
+        case 'Bottom':
+            overlayTextStyle = {
+                top: '85%'
+            };
+            break;
+        default:
+            break;
     }
 
     return (

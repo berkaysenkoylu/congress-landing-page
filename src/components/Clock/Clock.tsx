@@ -18,7 +18,6 @@ const Clock = () => {
     const { t } = useTranslation();
     const [timeRemaining, setTimeRemaining] = useState<TimeRemainingType>();
     const countdownRef = useRef<ReturnType<typeof setInterval>>();
-    const containerRef = useRef<HTMLDivElement>(null);
     const getTimeRemaining = useCallback(() => {
         const targetDateTime = (new Date(TARGET_DATE)).getTime();
         const nowTime = Date.now();
@@ -54,10 +53,6 @@ const Clock = () => {
             months
         };
     }, []);
-
-    const customStyle = {
-        marginTop: `-${Math.floor((containerRef.current?.scrollHeight || 0) / 2) + 8}px`
-    }
 
     useEffect(() => {
         const {
@@ -98,7 +93,7 @@ const Clock = () => {
     }, [getTimeRemaining]);
 
     return (
-        <div className={classes.Clock} ref={containerRef} style={customStyle}>
+        <div className={classes.Clock}>
             <Segment
                 label={t('Home.MonthText')}
                 value={timeRemaining?.months as number}

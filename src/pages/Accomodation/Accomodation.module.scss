@@ -3,7 +3,7 @@
 .Accomodation {
     @include PageStyle;
 
-    h2 {
+    & > h2 {
         @include TitleStyle;
         margin: 2rem 0;
     }

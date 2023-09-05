@@ -4,16 +4,17 @@ import classes from './PersonCard.module.scss';
 
 interface PersonCardPropsType {
     name: string
+    customStyle?: React.CSSProperties
     imageUrl?: string
     statusText?: string
 }
 
 const PersonCard = (props: PersonCardPropsType) => {
-    const { name, statusText } = props;
+    const { name, statusText, customStyle } = props;
     const defaultImage = require('../../../assets/images/avatar-default.png');
 
     return (
-        <div className={classes.PersonCard}>
+        <div className={classes.PersonCard} style={customStyle}>
             <figure>
                 <img alt={name} src={defaultImage} />
                 <figcaption>

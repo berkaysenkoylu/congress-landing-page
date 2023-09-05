@@ -4,12 +4,11 @@ import { useTranslation } from 'react-i18next';
 import classes from './Home.module.scss';
 import ImageShowcase from '../../components/ImageShowcase/ImageShowcase';
 import Clock from '../../components/Clock/Clock';
-import Invitation from '../Invitation/Invitation';
 
 const Home = () => {
     const { t } = useTranslation();
 
-    const chickenImage = require('../../assets/images/chickens.jpg');
+    const chickenImage = require('../../assets/images/happy_cows.png');
 
     return (
         <div className={classes.Home}>
@@ -19,13 +18,10 @@ const Home = () => {
                 overlayTitle={t('Home.OverlayTitle')}
                 overlaySubTitle={t('Home.OverlaySubTitle')}
                 isOverlayed
+                overlayTextPosition='Top'
             />
 
             <Clock />
-
-            <div className={classes.Home__Invitation}>
-                <Invitation />
-            </div>
         </div>
     )
 }

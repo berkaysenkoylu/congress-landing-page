@@ -7,7 +7,7 @@
         "Committees": "Kurullar",
         "CongressRegistration": "Kongre kaydı",
         "Accomodation": "Kongre yeri",
-        "Sponsors": "Sponsorlar",
+        "Sponsors": "Sponsorlarımız",
         "Sponsorship": "Sponsorluk",
         "Contact": "İletişim"
     },
@@ -22,16 +22,17 @@
     },
     "Invitation": {
         "Title": "<b>Değerli Meslektaşlarımız,</b>",
-        "Par1": "Hayvan Besleme Bilim Derneği Yönetim Kurulu adına sizleri <b>29 Şubat – 3 Mart 2024</b> tarihleri arasında, <b>Antalya</b>’da <b>Concorde DeLuxe Resort, Lara</b> otelde düzenlenecek 4. Uluslararası Hayvan Besleme Kongresi’ne (4. UHBK) davet etmekten kıvanç duyarız.",
-        "Par2": "HBBD <a href='http://www.hayvanbesleme.org.tr'>(http://www.hayvanbesleme.org.tr)</a> olarak ilk 3 kongrede olduğu gibi bu kez de Üniversite–Sanayi işbirliği kapsamında bilgi ve teknolojinin geliştirilmesi, paylaşılması ile yaratacağı katma değerden ülke ekonomisi ve evrensel bilim adına yararlanılması amacıyla yurt dışından bilim insanlarının katılımı ile uluslararası nitelikteki kongremizi bir adım daha ileri taşımayı hedefliyoruz.",
-        "Par3": "Bu niyetle yola çıkarken, 4. UHBK kapsamında yemler, hayvan besleme ve yem teknolojileri alanlarında uzmanlaşan siz değerli üyelerimizi, akademik çevrelerden, bakanlıktan, yem ve hayvancılık sektörlerinden olmak üzere aşağıdaki konuları ele alan sözlü veya poster bildiriler ile bu kongreye katkı yapmaya davet ediyoruz.",
-        "Par4": "4. UHBK’de buluşmak üzere sevgi ve saygılarımızı sunarız.",
+        "Par1": "Hayvan Besleme Bilim Derneği Yönetim Kurulu adına sizleri, <b>29 Şubat – 3 Mart 2024</b> tarihleri arasında, <b>Antalya</b>’da <b>Concorde DeLuxe Resort, Lara</b> otelde düzenlenecek 4. Uluslararası Hayvan Besleme Kongresi’ne (4. UHBK) davet etmekten kıvanç duyarız.",
+        "Par2": "Hayvan Besleme Bilim Derneği <a href='http://www.hayvanbesleme.org.tr'>(http://www.hayvanbesleme.org.tr)</a> olarak ilk 3 kongrede olduğu gibi bu kez de Üniversite–Sanayi işbirliği kapsamında bilgi ve teknolojinin geliştirilmesi, paylaşılması ile yaratacağı katma değerden ülke ekonomisi ve evrensel bilim adına yararlanılması amacıyla uluslararası nitelikteki kongremizi bir adım daha ileri taşımayı hedefliyoruz.",
+        "Par3": "Bu niyetle yola çıkarken, ister akademik camia, hayvancılık sektörü veya bakanlık çalışanı olsun sizleri, yem hammaddeleri, yem katkıları, besleme (ruminant, kanatlı, diğer çiftlik ve pet hayvanları), yem teknolojisi, ileri teknolojiler ve dijital besleme konularında en son bulgularınızı içeren sözlü veya poster bildirilerinizle bu kongreye katkı yapmaya davet ediyoruz.",
+        "Par4": "4. Uluslararası Hayvan Besleme Kongresinde buluşmak üzere sevgi ve saygılarımızı sunarız.",
         "Sign1": "<b>Prof. Dr. Nizamettin ŞENKÖYLÜ</b><br>Kongre Başkanı",
         "Sign2": "<b>Prof. Dr. Şakir Doğan TUNCER</b><br>Organizasyon Komitesi Başkanı"
     },
     "Committees": {
-        "Title1": "Kongre Organizasyon Komitesi",
-        "Title2": "Kongre Bilim Komitesi",
+        "Title1": "Organizasyon Komitesi",
+        "Title2": "Bilim Kurulu",
+        "StatusCongressChair": "Kongre Başkanı",
         "StatusChair": "Başkan"
     },
     "Paper": {
@@ -41,7 +42,7 @@
         "PresentationText": "Kongre salonunda projektör ve bilgisayar bulunacaktır. Bildiri sunum materyali, sunuma ait oturumdan en az 1 saat öncesine kadar ilgili personele teslim edilmelidir.",
         "Note": "Bildiri metinlerinin aşağıdaki hususlara dikkat edilerek hazırlanması gerekmektedir.",
         "Note2": "<b>NOT: Yukarıdaki yazım kurallarına uyulması makalenin değerlendirmeye alınması için önem taşımaktadır.</b>",
-        "List1": "<li>Et ve Süt Üretiminde Mevcut Sorunlar ve Çözüm Önerileri (PANEL)</li><li>Ruminant Besleme</li><li>Kanatlı Besleme</li><li>Yemler, Yem Katkıları, Yem Teknolojileri</li><li>Pet ve Diğer Çiftlik Hayvanlarının Beslenmesi</li><li>Süt/ Kırmızı Et Üretiminde Maliyet Analizi ve Template Oluşturulması</li><li>İleri Teknolojiler, NIR Modelleri, ve En İyi Yönetim Uygulamaları</li>",
+        "List1": "<li>Et ve Süt Üretiminde Mevcut Sorunlar ve Çözüm Önerileri (PANEL)</li><li>Ruminant Besleme</li><li>Kanatlı Besleme</li><li>Yemler, Yem Katkıları, Yem Teknolojileri</li><li>Pet ve Diğer Çiftlik Hayvanlarının Beslenmesi</li><li>Süt/ Kırmızı Et Üretiminde Maliyet Analizi ve Template Oluşturulması</li><li>İleri Teknolojiler, NIR Modelleri, ve En İyi Yönetim Uygulamaları</li><li>Kanatlı beslemede sürdürülebilir yem hammaddeleri (UYDU SEMPOZYUM)</li>",
         "List2": "<li>Araştırma makalesi bildiriler tam metin olarak 5 sayfayı geçmeyecek ve Türkçe Özet, Abstract, Giriş, Materyal ve Metot, Bulgular, Tartışma ve Sonuç bölümlerini içerecek şekilde hazırlanmalıdır. Özet tarzında olanlar da aynı bölümleri içerecek şekilde hazırlanacak, fakat en az 1 sayfa olacaktır. Derleme bildiriler ise Türkçe özet, abstract, giriş, gelişme ve sonuç bölümlerinden oluşmalıdır.</li><li>Bildiri metinleri Microsoft Word (7.0 veya üzeri) programında Times New Roman ile tek aralıklı yazılmalı, konu başlığında 12 (koyu), yazar adları ve diğer bölümlerde 10 punto kullanılmalıdır. Sayfalarda soldan 4, sağdan 2, üstten 2,5 ve alttan 2 cm boşluk bırakılmalıdır.</li><li>Başlık, kelime ilk harfleri büyük olarak ve 1 satır boşluk verilerek yazar adları unvan olmaksızın yazılmalıdır. Yazar adresleri, sayfa sonunda, 1,2,3 şeklinde numara ve her sayfada yeniden olacak şekilde seçilerek otomatik dip not olarak verilmelidir. Bildiriyi sunacak araştırmacının ismi altı çizilerek vurgulanmalıdır.</li><li>Bildiri metinlerinde kaynak gösterilmesinde, TÜBİTAK Veteriner Hayvancılık Dergisinde belirtilen esaslara (kullanılma sırasına göre numara verme) uyulmalıdır.</li><li>Tablolar word programında otomatik tablo menüsü kullanılarak yapılmalıdır.</li><li>Elektronik belgeler soyadı ve konu başlığı kısaltması şeklinde kaydedilerek yollanmalıdır (Örneğin yilmaz_enzim.doc)</li><li>Bildirisi poster olarak seçilmiş olan araştırıcılar, posterlerini 70×100 cm boyutunda (dikey konumda), 1-1,5 m’den okunabilecek şekilde hazırlayarak kendilerine bildirilecek tarihte ve saatte panolarına asmış olmalıdırlar.</li><li>Posterler panel sonrası kahve arasında topluca gezilecektir. Poster sahipleri kahve aralarında poster başında olacaklardır. Posterler kongre boyunca asılı kalacak ve kongre bitişinde kaldırılacaktır.<br>Sözlü bildiri yapacak araştırmacılar, sunumlarını 16×9 (geniş ekran) formatında sunum yapacak şekilde düzenlemelidir.<br>Verilen poster numarasına göre poster alanındaki panolara asmış olmalıdırlar.</li>"
     },
     "Registration": {
@@ -51,6 +52,7 @@
         "Title4": "Kongre Dili",
         "Title5": "Bildiriler",
         "Title6": "Bildiri için Önemli Tarihler",
+        "FlashText": "Kongre için kayıt başlamıştır.",
         "Text1": "Kongreye paket program kapsamında katılım söz konusudur. Paket program <b>3 gece konaklamalı</b> kongre katılımı için geçerlidir. Konaklama, 29 Şubat giriş ve 3 Mart çıkış olmak üzere 3 (üç) geceliktir. Paket programa göre dernek üyelerimize ve diğer katılımcılara oda tipine göre uygulanacak günlük konaklama ücretleri aşağıdaki tabloda yer almaktadır. Erken kayıt yaptıracak katılımcılara avantaj sağlanmıştır. İki yetişkin yanında kalacak 0-9.99 yaş 1. çocuk ücretsiz, 0-2.99 yaş 2. çocuk ücretsiz, 3-9.99 yaş 2. çocuk  %50 indirimlidir.",
         "Table1Title": "Oda Tipi ve Kayıt Dönemine Göre <u>3 Günlük Paket</u> Konaklama Ücretleri (EURO olarak KDV ve %2 Konaklama Vergisi dahil):",
         "RoomType": "ODA TİPİ",
@@ -88,7 +90,7 @@
     },
     "Sponsorship": {
         "Title": "Sergiler – Reklam ve Sponsorluk",
-        "Text": "Kongrede sponsorluk yapanlar destek miktarlarına göre derecelendirilerek, kongre elektronik kitabı ve program kitapçığında yer alacaklardır. Kongreye katılmak ve ürünlerini sergilemek isteyen sponsor firmalar için istekleri doğrultusunda kongre salonu fuayesinde stant alanı sağlanacaktır. Kongre sponsorluk detayları için kongre başkanlığına müracaat edilmelidir. Kongre kitabına reklam da kabul edilebilecektir. Sponsorluk için Organizasyon Komitesine (<a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>) mesaj atınız lütfen.",
+        "Text": "Kongrede sponsorluk yapanlar destek miktarlarına göre derecelendirilerek, kongre elektronik kitabı ve program kitapçığında yer alacaklardır. Kongreye katılmak ve ürünlerini sergilemek isteyen sponsor firmalar için istekleri doğrultusunda kongre salonu fuayesinde stant alanı sağlanacaktır. Kongre sponsorluk detayları için kongre başkanlığına müracaat edilmelidir. Kongre kitabına reklam da kabul edilebilecektir. Sponsorluk ve stand için Organizasyon Komitesine (<a href='mailto:hbbdernegi@gmail.com'>hbbdernegi@gmail.com</a>) mesaj atınız lütfen.",
         "TableTitle": "SPONSORLUK KATEGORİLERİ",
         "TableRow1Col1": "Kategoriler",
         "TableRow1Col2": "Sponsorluk (Euro)",
@@ -112,7 +114,7 @@
         "SoldText": "Verildi"
     },
     "Sponsors": {
-        "Title": "KONGRE SPONSORLARI",
+        "Title": "SPONSORLARIMIZ",
         "TableRow1Col1": "Kategoriler",
         "TableRow1Col2": "Sponsor",
         "TableRow1Col3": "Sponsorluk (Euro)",
@@ -137,6 +139,8 @@
     },
     "Contact": {
         "Title": "İletişim",
-        "ContactText": "Kongre ile ilgili güncel bilgiler ve önemli duyurular, Hayvan Besleme Bilim Derneğinin web sayfasında (<a href='https://www.hayvanbesleme.org.tr/'>https://www.hayvanbesleme.org.tr/</a>) adresinden ve WhatsApp (HBB.dernek.üyeleri)’tan izlenebilir."
+        "ContactText": "Kongre ile ilgili güncel bilgiler ve önemli duyurular, Hayvan Besleme Bilim Derneğinin web sayfasında (<a href='https://www.hayvanbesleme.org.tr/'>https://www.hayvanbesleme.org.tr/</a>) adresinden ve WhatsApp (HBB.dernek.üyeleri)’tan izlenebilir.",
+        "Phone": "Telefon",
+        "Email": "E-posta"
     }
 }

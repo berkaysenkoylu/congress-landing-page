@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+import svg from '../../assets/images/sprites.svg';
 import classes from './CongressRegistration.module.scss';
 
 const CongressRegistration = () => {
@@ -81,6 +82,17 @@ const CongressRegistration = () => {
     return (
         <div className={classes.CongressRegistration}>
             <h2>{t('Registration.Title1')}</h2>
+
+            <h3>
+                <svg className={classes.Icon}>
+                    <use xlinkHref={`${svg}#icon-warning`}></use>
+                </svg>
+                {t('Registration.FlashText')}
+                <svg className={classes.Icon}>
+                    <use xlinkHref={`${svg}#icon-warning`}></use>
+                </svg>
+            </h3>
+
             <p dangerouslySetInnerHTML={{ __html: t('Registration.Text1') }} />
 
             <h5 dangerouslySetInnerHTML={{ __html: t('Registration.Table1Title') }} />

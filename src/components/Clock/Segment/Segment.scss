@@ -3,27 +3,28 @@
 }
 
 .countdown {
-    margin: 1rem;
-    width: 10rem;
+    width: 7rem;
     display: flex;
+    justify-content: center;
     font-family: sans-serif;
 }
 
 .time-section {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 
 .time-group {
     display: flex;
-    gap: 1rem;
+    gap: 3px;
 }
 
 .time-segment {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
-    width: 4rem;
+    width: 3rem;
+    height: 4.5rem;
 }
 
 .segment-display {
@@ -57,7 +58,7 @@
     top: 0;
     perspective: 40rem;
     height: 100%;
-    width: 4rem;
+    width: 3rem;
 }
 
 .segment-overlay__top,

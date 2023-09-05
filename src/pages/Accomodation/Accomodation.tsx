@@ -47,6 +47,7 @@ const Accomodation = () => {
                 imageUrl={hotelImage}
                 alt='hotel_showcase_image'
                 isOverlayed
+                overlayTextPosition='Bottom'
                 overlayTitle='Concorde DeLuxe Resort Lara - Antalya'
                 overlaySubTitle='Kemerağzı site, Tesisler Cd No:358/1, 07980 Aksu/Antalya'
             />

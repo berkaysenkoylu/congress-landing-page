@@ -2,17 +2,35 @@
 
 .CongressRegistration {
     @include PageStyle;
-    font-size: $small-font-size;
+    font-size: $default-font-size;
 
     h2 {
         @include TitleStyle;
-        margin-bottom: 2.5rem;
+        margin-bottom: 1rem;
+        font-size: $title-small-font_size-2;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 2rem;
+        animation: Flash 1.2s ease-in infinite;
+        color: $color-red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            fill: $color-red;
+            height: 2rem;
+            width: 2rem;
+            margin: 0 8px;
+        }
     }
 
     h4 {
         margin-top: 3rem;
         margin-bottom: 1rem;
-        font-size: $small-font-size;
+        font-size: $default-font-size;
         text-decoration: underline;
     }
 
@@ -99,4 +117,16 @@
 
 .NormalText {
     font-weight: 400;
+}
+
+@keyframes Flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
