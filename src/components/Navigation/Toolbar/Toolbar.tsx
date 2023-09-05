@@ -16,7 +16,7 @@ const Toolbar = () => {
     return (
         <div className={classes.Toolbar}>
             <img src={iconImage} alt="logo" />
-            <h2 className={classes.Toolbar__Title}>{t('Title')}</h2>
+            <h2 className={classes.Toolbar__Title}>{t('Title').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
 
             <ul className={classes.Toolbar__Lang}>
                 <IconButton iconName='tr' clicked={onLanguageChange} />

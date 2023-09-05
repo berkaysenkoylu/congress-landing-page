@@ -8,12 +8,12 @@ import Clock from '../../components/Clock/Clock';
 const Home = () => {
     const { t } = useTranslation();
 
-    const chickenImage = require('../../assets/images/happy_cows.png');
+    const homeImage = require('../../assets/images/saman_balya.png');
 
     return (
         <div className={classes.Home}>
             <ImageShowcase
-                imageUrl={chickenImage}
+                imageUrl={homeImage}
                 alt='showcase_image'
                 overlayTitle={t('Home.OverlayTitle')}
                 overlaySubTitle={t('Home.OverlaySubTitle')}

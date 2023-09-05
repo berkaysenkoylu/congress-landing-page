@@ -10,7 +10,9 @@ const Sponsors = () => {
         <div className={classes.Sponsors}>
             <h2>{t('Sponsors.Title')}</h2>
 
-            <table className={classes.Table}>
+            <h4>WORK IN PROGRESS</h4>
+
+            {/* <table className={classes.Table}>
                 <thead>
                     <tr>
                         <th>{t('Sponsors.TableRow1Col1')}</th>
@@ -112,7 +114,7 @@ const Sponsors = () => {
                         <th>{t('Sponsors.StandText')}</th>
                     </tr>
                 </tbody>
-            </table>
+            </table> */}
         </div>
     )
 }
