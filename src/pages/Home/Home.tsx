@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import classes from './Home.module.scss';
 import ImageShowcase from '../../components/ImageShowcase/ImageShowcase';
 import Clock from '../../components/Clock/Clock';
+import Showcase from '../../components/Showcase/Showcase';
 
 const Home = () => {
     const { t } = useTranslation();
@@ -22,6 +23,8 @@ const Home = () => {
             />
 
             <Clock />
+
+            <Showcase />
         </div>
     )
 }

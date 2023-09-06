@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.SponsorCard {
+    background-color: $color-white;
+    height: 30rem;
+    box-shadow: 0px 0px 6px 0px rgba($main-color-dark, 0.75);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+
+    &:not(:last-child) {
+        margin-right: 12rem;
+    }
+
+    & > img {
+        width: 100%;
+    }
+}

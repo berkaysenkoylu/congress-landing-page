@@ -1,0 +1,45 @@
+@import '../../variables';
+
+.Showcase {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 0;
+    width: 100%;
+
+    @media only screen and (max-width: $bp-xsmall) {
+        display: none;
+    }
+
+    &__Wrapper {
+        margin: 2.8rem 0;
+        flex: 1;
+        margin-bottom: 0;
+        padding: 2rem;
+    }
+
+    &__Viewport {
+        position: relative;
+        overflow: hidden;
+        padding: 1rem 0;
+        max-width: 92rem;
+        margin: 0 auto;
+    
+        height: 100%;
+        // width: 100%;
+        font-size: 4rem;
+    }
+
+    &__Sponsors {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.ShowcaseHeader {
+    text-align: center;
+
+    h2 {
+        font-size: $title-font_size;
+    }
+}

@@ -13,14 +13,16 @@ const Toolbar = () => {
         i18n.changeLanguage(name);
     }
 
+    const currentLanguage = i18n.language;
+
     return (
         <div className={classes.Toolbar}>
             <img src={iconImage} alt="logo" />
-            <h2 className={classes.Toolbar__Title}>{t('Title').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
+            <h2 className={classes.Toolbar__Title}>{t('Title').toLocaleUpperCase(currentLanguage === 'en' ? 'en-US': 'tr-TR')}</h2>
 
             <ul className={classes.Toolbar__Lang}>
-                <IconButton iconName='tr' clicked={onLanguageChange} />
-                <IconButton iconName='en' clicked={onLanguageChange} />
+                {currentLanguage === 'en' ? <IconButton iconName='tr' clicked={onLanguageChange} /> : null}
+                {currentLanguage === 'tr' ? <IconButton iconName='en' clicked={onLanguageChange} /> : null}
             </ul>
         </div>
     );
