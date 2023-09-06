@@ -5,6 +5,7 @@
         "Invitation": "Davet",
         "Paper": "Bildiri",
         "Committees": "Kurullar",
+        "InvitedSpeakers": "Davetli konuşmacılar",
         "CongressRegistration": "Kongre kaydı",
         "Accomodation": "Kongre yeri",
         "Sponsors": "Sponsorlarımız",
@@ -142,5 +143,8 @@
         "ContactText": "Kongre ile ilgili güncel bilgiler ve önemli duyurular, Hayvan Besleme Bilim Derneğinin web sayfasında (<a href='https://www.hayvanbesleme.org.tr/'>https://www.hayvanbesleme.org.tr/</a>) adresinden ve WhatsApp (HBB.dernek.üyeleri)’tan izlenebilir.",
         "Phone": "Telefon",
         "Email": "E-posta"
+    },
+    "InvitedSpeakers": {
+        "Title": "Davetli konuşmacılar"
     }
 }

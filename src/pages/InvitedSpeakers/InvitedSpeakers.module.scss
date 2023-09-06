@@ -1,0 +1,9 @@
+@import '../../variables';
+
+.InvitedSpeakers {
+    @include PageStyle;
+
+    h2 {
+        @include TitleStyle;
+    }
+}

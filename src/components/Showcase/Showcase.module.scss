@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 6rem 0;
+    margin: 8rem 0 4rem 0;
     width: 100%;
 
     @media only screen and (max-width: $bp-xsmall) {
@@ -26,7 +26,6 @@
         margin: 0 auto;
     
         height: 100%;
-        // width: 100%;
         font-size: 4rem;
     }
 
@@ -41,5 +40,6 @@
 
     h2 {
         font-size: $title-font_size;
+        font-weight: 500;
     }
 }

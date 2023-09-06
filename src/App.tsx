@@ -10,6 +10,7 @@ import Contact from './pages/Contact/Contact';
 import Paper from './pages/Paper/Paper';
 import Sponsors from './pages/Sponsors/Sponsors';
 import Invitation from './pages/Invitation/Invitation';
+import InvitedSpeakers from './pages/InvitedSpeakers/InvitedSpeakers';
 
 export const Context = createContext<any[]>([]);
 
@@ -42,6 +43,9 @@ const App = () => {
             break;
         case 'Contact':
             content = <Contact />;
+            break;
+        case 'InvitedSpeakers':
+            content = <InvitedSpeakers />;
             break;
         default:
             content = <Home />;

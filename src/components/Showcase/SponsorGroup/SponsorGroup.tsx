@@ -27,11 +27,11 @@ const SponsorGroup = () => {
             <SponsorCard imageUrl={sponsor6} imageAlt='sponsor6' />
 
             {/* CLONES */}
-            <SponsorCard imageUrl={sponsor1} imageAlt='sponsor1' isFirstClone />
+            {/* <SponsorCard imageUrl={sponsor1} imageAlt='sponsor1-clone' isFirstClone boundingRectOfContainer={props.containerBounds} />
 
-            <SponsorCard imageUrl={sponsor2} imageAlt='sponsor2' />
+            <SponsorCard imageUrl={sponsor2} imageAlt='sponsor2-clone' />
 
-            <SponsorCard imageUrl={sponsor3} imageAlt='sponsor3' />
+            <SponsorCard imageUrl={sponsor3} imageAlt='sponsor3-clone' /> */}
         </div>
     )
 }

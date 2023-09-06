@@ -5,6 +5,7 @@
         "Invitation": "Invitation",
         "Paper": "Paper",
         "Committees": "Committees",
+        "InvitedSpeakers": "Invited Speakers",
         "CongressRegistration": "Registration",
         "Accomodation": "Congress Venue",
         "Sponsors": "Our Sponsors",
@@ -142,5 +143,8 @@
         "ContactText": "Current information and announcements will be followed from the website of the congress: <a href='https://www.hayvanbesleme.org.tr/congress/'>https://www.hayvanbesleme.org.tr/congress/</a> and via WhatsApp: HBB.dernek.üyeleri",
         "Phone": "Phone number",
         "Email": "E-mail"
+    },
+    "InvitedSpeakers": {
+        "Title": "Invited Speakers"
     }
 }
