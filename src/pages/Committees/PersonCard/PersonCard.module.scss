@@ -13,11 +13,15 @@
 
         figcaption {
             text-align: center;
-            font-size: $small-font-size;
+            font-size: $default-font-size;;
             margin-top: 1.5rem;
 
-            p:nth-child(2) {
+            p:nth-child(1) {
                 font-weight: 500;
+            }
+
+            p:nth-child(2){
+                margin-top: 1rem;
             }
         }
     }

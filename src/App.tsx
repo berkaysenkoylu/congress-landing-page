@@ -1,4 +1,5 @@
 import { useState, createContext } from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import './App.scss';
 import Layout from './hoc/Layout/Layout';
 import Committees from './pages/Committees/Committees';
@@ -55,6 +56,15 @@ const App = () => {
     return (
         <Context.Provider value={[pageName, setPageName]}>
             <Layout>
+                <HelmetProvider>
+                    <Helmet>
+                        <meta charSet="utf-8" />
+                        <title>4. ULUSLARARASI HAYVAN BESLEME KONGRESİ</title>
+                        <meta name="description" content="Hayvan Besleme Bilim Derneği Kongre sayfası"></meta>
+                        <link rel="canonical" href="https://www.hayvanbesleme.org.tr/congress/" />
+                    </Helmet>
+                </HelmetProvider>
+
                 {content}
             </Layout>
         </Context.Provider>

@@ -7,16 +7,23 @@ import SponsorGroup from './SponsorGroup/SponsorGroup';
 const Showcase = () => {
     const { t } = useTranslation();
     const [translateValue, setTranslateValue] = useState(0);
-    const viewportRef = useRef<HTMLDivElement>(null);
     const showCaseSponsorsRef = useRef<HTMLDivElement>(null);
+    const sponsorsRef = useRef<HTMLDivElement>(null);
     const intervalRef = useRef<ReturnType<typeof setInterval>>();
 
     useEffect(() => {
         intervalRef.current = setInterval(() => {
+            let breakpoint = (sponsorsRef.current?.getBoundingClientRect().width ?
+                sponsorsRef.current?.getBoundingClientRect().width : 2450) * -1;
+
             setTranslateValue(prevState => {
-                // TODO revisit this
-                if (prevState <= -3250) {
-                    return 950;
+                if (prevState <= breakpoint) {
+                    let offset = 950;
+                    if (showCaseSponsorsRef.current) {
+                        offset = showCaseSponsorsRef.current.getBoundingClientRect().width + 30
+                    }
+
+                    return offset;
                 } else {
                     return prevState - 1;
                 }
@@ -31,13 +38,13 @@ const Showcase = () => {
     return (
         <section className={classes.Showcase}>
             <header className={classes.ShowcaseHeader}>
-                <h2>{t("Sponsors.Title")}</h2>
+                <h2>{t("FrontPageSlider.Title")}</h2>
                 {/* <button onClick={() => setTranslateValue(prevState => prevState - 150)}>PRESS ME</button> */}
             </header>
             <div className={classes.Showcase__Wrapper}>
-                <div className={classes.Showcase__Viewport} ref={viewportRef} id="product-showcase-viewport">
+                <div className={classes.Showcase__Viewport} id="product-showcase-viewport">
                     <div className={classes.Showcase__Sponsors} ref={showCaseSponsorsRef} style={{ transform: `translateX(${translateValue}px)` }}>
-                        <SponsorGroup />
+                        <SponsorGroup ref={sponsorsRef} />
                     </div>
                 </div>
             </div>
