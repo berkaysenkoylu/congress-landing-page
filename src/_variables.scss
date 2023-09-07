@@ -64,3 +64,10 @@ $bp-xsmall: 28.125em; // 450px / 16px = 28.125em
     font-weight: 400;
     text-align: center;
 }
+
+@mixin SubTitleStyle {
+    font-size: $title-x-small-font-size;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: underline;
+}

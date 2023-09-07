@@ -3,7 +3,8 @@
 .InvitedSpeakers {
     @include PageStyle;
 
-    h2 {
+    & > h2 {
         @include TitleStyle;
+        margin-bottom: 4rem;
     }
 }
