@@ -1,4 +1,4 @@
-@import '../../../variables';
+@import '../../variables';
 
 .Toolbar {
     font-size: 1.4rem;
@@ -10,13 +10,22 @@
 
     img {
         height: 100%;
+
+        @media only screen and (max-width: $bp-xsmall) {
+            height: 90%;
+        }
     }
 
     &__Title {
         margin-left: 2rem;
-        font-size: $title-font_size;
+        font-size: $title-font-size;
         font-weight: 300;
         letter-spacing: 3px;
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: $title-small-font-size;
+            letter-spacing: 1px;
+        }
     }
 
     &__Lang {

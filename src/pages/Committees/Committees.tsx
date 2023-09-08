@@ -14,7 +14,6 @@ const Committees = () => {
     const supporter4 = require('../../assets/images/LOGOS/Destekleyen/besd-bir.png');
     const supporter5 = require('../../assets/images/LOGOS/Destekleyen/tuyekad.png');
 
-
     return (
         <div className={classes.Committees}>
             <PersonCard
@@ -30,7 +29,7 @@ const Committees = () => {
                     name='Prof. Dr. Şakir Doğan TUNCER'
                     statusText={t('Committees.StatusChair')}
                     customStyle={{
-                        gridColumn: '2',
+                        gridColumn: window.innerWidth > 600 ? '2' : '2 / 4',
                         gridRow: '1'
                     }}
                 />
@@ -39,7 +38,7 @@ const Committees = () => {
                     name='Prof. Dr. Sakine YALÇIN'
                     customStyle={{
                         gridRow: '2',
-                        gridColumn: '1',
+                        gridColumn: window.innerWidth > 600 ? '1' : '1 / 3',
                     }}
                 />
 
@@ -47,15 +46,15 @@ const Committees = () => {
                     name='Prof. Dr. İbrahim AK'
                     customStyle={{
                         gridRow: '2',
-                        gridColumn: '2'
+                        gridColumn: window.innerWidth > 600 ? '2' : '3 / 5'
                     }}
                 />
 
                 <PersonCard
                     name='Prof. Dr. Seher KÜÇÜKERSAN'
                     customStyle={{
-                        gridRow: '2',
-                        gridColumn: '3'
+                        gridRow: window.innerWidth > 600 ? '2' : '3',
+                        gridColumn: window.innerWidth > 600 ? '3' : '1 / 3'
                     }}
                 />
 
@@ -63,7 +62,7 @@ const Committees = () => {
                     name='Doç. Dr. Cengizhan MIZRAK'
                     customStyle={{
                         gridRow: '3',
-                        gridColumn: '1'
+                        gridColumn: window.innerWidth > 600 ? '1' : '3 / 5'
                     }}
                 />
             </div>
@@ -75,7 +74,7 @@ const Committees = () => {
                     name='Prof. Dr. Sakine YALÇIN'
                     statusText={t('Committees.StatusChair')}
                     customStyle={{
-                        gridColumn: '2',
+                        gridColumn: window.innerWidth > 600 ? '2' : '2 / 4',
                         gridRow: '1'
                     }}
                 />

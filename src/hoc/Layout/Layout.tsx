@@ -1,5 +1,5 @@
 import classes from './Layout.module.scss';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import Toolbar from '../../components/Toolbar/Toolbar';
 import Sidebar from '../../components/Sidebar/Sidebar';
 
 const Layout = (props: any) => {

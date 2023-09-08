@@ -57,6 +57,14 @@ $bp-xsmall: 28.125em; // 450px / 16px = 28.125em
     width: 80%;
     margin: 2rem auto 0 auto;
     padding: 1rem 1rem 5rem 1rem;
+
+    @media only screen and (max-width: $bp-largest) {
+        width: 90%;
+    }
+
+    @media only screen and (max-width: $bp-xsmall) {
+        width: 95%;
+    }
 }
 
 @mixin TitleStyle {
@@ -70,4 +78,16 @@ $bp-xsmall: 28.125em; // 450px / 16px = 28.125em
     font-weight: 500;
     text-align: left;
     text-decoration: underline;
+}
+
+@mixin TableStyle {
+    width: 75%;
+    margin: 3rem auto 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+
+    @media only screen and (max-width: $bp-largest) {
+        width: 90%;
+    }
 }

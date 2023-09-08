@@ -14,6 +14,8 @@ interface ImageShowcasePropsType {
 const ImageShowcase = (props: ImageShowcasePropsType) => {
     const { alt, imageUrl, isOverlayed, overlayTitle, overlaySubTitle, overlayTextPosition } = props;
 
+    console.log(window.innerWidth)
+
     let overlayTextStyle = {
         top: '50%'
     }
@@ -30,7 +32,7 @@ const ImageShowcase = (props: ImageShowcasePropsType) => {
     switch (overlayTextPosition) {
         case 'Top':
             overlayTextStyle = {
-                top: '15%'
+                top: window.innerWidth > 600 ? '15%' : '30%'
             };
             break;
         case 'Mid':
@@ -40,7 +42,7 @@ const ImageShowcase = (props: ImageShowcasePropsType) => {
             break;
         case 'Bottom':
             overlayTextStyle = {
-                top: '85%'
+                top: window.innerWidth > 600 ? '85%' : '70%'
             };
             break;
         default:

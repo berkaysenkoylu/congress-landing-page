@@ -16,6 +16,11 @@
         justify-items: center;
         padding: 2rem;
         margin-bottom: 5rem;
+
+        @media only screen and (max-width: $bp-small) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 2rem;
+        }
     }
 
     &__Supporters {
@@ -26,5 +31,9 @@
         justify-items: center;
         align-items: center;
         grid-gap: 3rem;
+
+        @media only screen and (max-width: $bp-xsmall) {
+            grid-template-columns: 1fr;
+        }
     }
 }
