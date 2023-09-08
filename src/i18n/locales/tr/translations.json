@@ -33,6 +33,7 @@
     "Committees": {
         "Title1": "Organizasyon Komitesi",
         "Title2": "Bilim Kurulu",
+        "Title3": "Destekleyen Kuruluşlar",
         "StatusCongressChair": "Kongre Başkanı",
         "StatusChair": "Başkan"
     },
@@ -145,7 +146,50 @@
         "Email": "E-posta"
     },
     "InvitedSpeakers": {
-        "Title": "Davetli konuşmacılar"
+        "Title": "Davetli konuşmacılar",
+        "MuratUlku": {
+            "Name": "Murat Ülkü KARAKUŞ",
+            "Status": "Moderatör",
+            "Occupation": "Türkiye Yem Sanayicileri Birliği Başkanı",
+            "Panel": "KIRMIZI ET VE SÜT ÜRETİMİNDE MEVCUT SORUNLAR İLE ÇÖZÜM ÖNERİLERİ",
+            "Bio": "1984 yılında Atatürk Üniversitesi Ziraat Fakültesi Zootekni bölümünden mezun olmuştur. Sonrasında Turhal’da bir yem fabrikasında fabrika müdürü olarak görev yapmıştır. 1986 yılından itibaren 10 yıl boyunca Roche Müstahzarları San. A.Ş.’de çalıştıktan sonra, bu görevinden ayrılarak kendi şirketini kurmuştur.  Ankara’da yem fabrikası, tavukçuluk tesisleri ve büyükbaş hayvan çiftlikleri bulunan Karakuş, ayrıca yem hammaddeleri ticareti ile uğraşmaktadır. 1997–1998 yıllarında Türk Ziraat Yüksek Mühendisleri Birliği Yönetim Kurulu üyeliği yapmış ve 1998 yılından bu yana Türkiye Yem Sanayicileri Birliği Yönetim Kurulu Başkanlığı görevini sürdürmektedir.  Ayrıca, 2016 yılından itibaren Ankara Ticaret Odası Yönetim Kurulu Sayman Üyeliği ve 2020 yılından itibaren TOBB Türkiye Tarım Meclisi Başkanlığı görevlerini yürütmektedir. 30 yılı aşkın meslek hayatında, sektörü ile ilgili ulusal ve uluslararası toplantı, kongre ve fuarlarda organizasyon komitesi başkanı, konuşmacı ve moderatör olarak katılmıştır."
+        },
+        "NumanAkman": {
+            "Name": "Prof. Dr. Numan AKMAN",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "TÜRKIYE’DE BÜYÜK VE KÜÇÜKBAŞ HAYVAN VARLIĞI İLE POPÜLASYONU ARTIRMA STRATEJİLERİ",
+            "Bio": ""
+        },
+        "İsmetTurkmen": {
+            "Name": "Prof. Dr. İsmet TÜRKMEN",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "SÜT VE ET SIĞIRLARININ BESLENMESİNDE BELLİ BAŞLI SORUNLAR VE ÇÖZÜMLERİ",
+            "Bio": "Orta öğrenimini Kırkağaç’ta, liseyi Bursa’da bitirmiştir. Bursa Uludağ Üniversitesi Veteriner Fakültesi’nden 1987 yılında mezun olmuştur. Ardından bir süre serbest veteriner hekim ve bir yem fabrikasında saha veteriner hekimi olarak çalışmıştır. Bursa Uludağ Üniversitesi Veteriner Fakültesi Hayvan Besleme ve Beslenme Hastalıkları Anabilim Dalı’nda 1991 yılında Araştırma Görevlisi olarak akademisyenlik hayatına başlamış, 1997 yılında Doktor, 1999 yılında Yardımcı Doçent, 2000 yılında Doçent ve 2007 yılında da Profesör unvanını almıştır. İsrail Hükümeti tarafından sağlanan bursla 1999 yılında Volcani Center/İsrail’de Yem Değerlendirme Sistemleri konusunda çalışmıştır. Şimdiye kadar yayımlanmış 32 adeti Uluslararası dergilerde olmak üzere toplam 65’in üzerinde bilimsel makalesi vardır. Uludağ Üniversitesi Senato Üyeliği, Veteriner Fakültesi’nde Dekan Yardımcılığı, Hayvan Besleme ve Beslenme Hastalıkları Anabilim Dalı Başkanlığı ve Zootekni ve Hayvan Besleme Bölüm Başkanlığı görevlerini yürütmüştür. Özel sektörle her zaman için yakın ilişkileri olan Türkmen çeşitli firmalara bilimsel danışmanlık hizmeti vermektedir. Evli ve iki çocuk babasıdır."
+        },
+        "İsmailFilya": {
+            "Name": "Prof. Dr. İsmail FİLYA",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "KABA YEM VE SİLAJ ÜRETİMİNDEKİ DURUM VE ARTIRMA STRATEJİLERİ",
+            "Bio": ""
+        },
+        "NahitYazıcıoğlu": {
+            "Name": "Prof. Dr. Nahit YAZICIOĞLU",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "SÜT VE ET ÜRETİM İŞLETMELERİNDE SAHADA YAŞANAN SORUNLAR VE ÇÖZÜMLERİ",
+            "Bio": ""
+        }
+        ,
+        "BirgerSvihus": {
+            "Name": "Prof. Dr. Birger SVIHUS",
+            "Status": "Konuşmacı",
+            "Occupation": "",
+            "Panel": "PELET BOYUTLARI YEM OPTIMIZASYONUNUN BROYLER PERFORMANSINA ETKİLERİ",
+            "Bio": "Birger Svihus Norveç Yaşam Bilimleri Üniversitesinde besleme profesörü olarak görev yapmaktadır. Bilimsel çalışmaları kanatlı beslemenin tahıllarda lif ve nişasta, yem teknolojisi, sindirim sistemi fonksiyonu ve yemleme sistemleri konularında ağırlık kazanmıştır. WPSA’nın iki önemli toplantısına liderlik etmiştir. Biri, 2003 yılındaki 14. ESPN diğeri de 2014 yılındaki 14. Avrupa Kanatlı Kongresidir. Avrupa Kanatlı Federasyonunun 2014-2018 yılları arasında başkanlığını yapmıştır. 2016-2021 yılları arasında British Poultry Science dergisinin Şef-Editörlüğünü yapmıştır."
+        }
     },
     "FrontPageSlider": {
         "Title": "SPONSORLARIMIZA TEŞEKKÜR EDERİZ"

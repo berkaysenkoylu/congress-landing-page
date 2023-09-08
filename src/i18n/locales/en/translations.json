@@ -33,6 +33,7 @@
     "Committees": {
         "Title1": "Organization Committee",
         "Title2": "Science Committee",
+        "Title3": "Supporting Organizations",
         "StatusCongressChair": "Congress Chair",
         "StatusChair": "Chair"
     },
@@ -145,7 +146,50 @@
         "Email": "E-mail"
     },
     "InvitedSpeakers": {
-        "Title": "Invited Speakers"
+        "Title": "Invited Speakers",
+        "MuratUlku": {
+            "Name": "Murat Ülkü KARAKUŞ",
+            "Status": "Moderator",
+            "Occupation": "President of Turkish Feed Manufacturers Assoc.",
+            "Panel": "STRATEGIES TO SOLVE PROBLEMS IN MILK AND RED MEAT PRODUCTION",
+            "Bio": "He graduated from Atatürk University Faculty of Agriculture, Dept. of Animal Science In 1984. Subsequently, he worked as a factory manager in a feed plant in Turhal. After working for Roche company for 10 years, he founded his own company. Mr. Karakuş, currently has a feed factory, poultry facilities and cattle farms in Ankara, he also deals with feed materials trade. He served as a Board Member of Turkish Agricultural Engineers Association) in 1997-1998. He is currently the President of Turkish Feed Manufacturers Association since 1998. In addition, he has been the Treasurer Board Member in the Board of Ankara Chamber of Commerce (ATO) since 2016 and the Chairman of Agriculture Assembly of Turkish Union of Chambers and Commodity Exchanges (TOBB) since 2020. For more than 30 years in his professional life, he took place in many national and international meetings, congresses and fairs as head of organization committee, speaker and moderator."
+        },
+        "NumanAkman": {
+            "Name": "PROF. DR. Numan AKMAN",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "STRATEGIES TO INCREASE LARGE AND SMALL RUMINANT POPULATION IN TÜRKİYE",
+            "Bio": ""
+        },
+        "İsmetTurkmen": {
+            "Name": "PROF. DR. İsmet TÜRKMEN",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "MAJOR PROBLEMS AND SOLUTIONS IN FEEDING DAIRY AND MEAT CATTLE",
+            "Bio": "İsmet Türkmen graduated from Bursa Uludağ University Veterinary Faculty afterwards worked for a feed mill and later in 1991 he started PhD study in the Dept. of Animal Nutrition and Nutritional Diseases and finished this program in 1997. Later in 1999 assistant professor, in 2000 associate and finally in 2007 appointed as full professor to the same department. In 1999 he completed feed evaluation program given Volcani Research Centre/Israel. He published 32 paper in International journals out of 65 in total. He also took academic responsibilities as Senator, Vice Dean in the Veterinary Faculty, head of Dept. of Zootechni and Animal Nutrition and Nutritional Diseases. He is currently consulting several companies in animal production sector. Professor Türkmen is married and has two children."
+        },
+        "İsmailFilya": {
+            "Name": "Prof. Dr. İsmail FİLYA",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "STATUS OF FORAGE IN TURKİYE AND STARATEGIES OF INCREASING ROUFHAGE AND SILAGE",
+            "Bio": ""
+        },
+        "NahitYazıcıoğlu": {
+            "Name": "Prof. Dr. Nahit YAZICIOĞLU",
+            "Status": "Panelist",
+            "Occupation": "",
+            "Panel": "CHALLENGES IN MILK AND RED MEAT PRODUCTION FARMS AND SOLUTIONS",
+            "Bio": ""
+        }
+        ,
+        "BirgerSvihus": {
+            "Name": "Prof. Dr. Birger SVIHUS",
+            "Status": "Speaker",
+            "Occupation": "",
+            "Panel": "EFFECTS OF OPTIMIZATION OF FEED ON BROILER PERFPRMANCE",
+            "Bio": "Birger Svihus is a professor of nutrition at the Norwegian University of Life Sciences. His scientific work in poultry nutrition has mainly been within the area of cereal fibre and starch, feed technology, digestive tract function and feeding systems. He had a leading role in the organisation of two major WPSA poultry conferences, the 14th European Symposium on Poultry Nutrition (2003) and the 14th European Poultry Conference (2014). He was the president of the European Federation of WPSA from 2014 to 2018. For six years from 2016 through 2021, he was Editor-in-Chief in British Poultry Science."
+        }
     },
     "FrontPageSlider": {
         "Title": "BIG THANKS TO OUR SPONSORS"

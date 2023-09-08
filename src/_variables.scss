@@ -60,7 +60,7 @@ $bp-xsmall: 28.125em; // 450px / 16px = 28.125em
 }
 
 @mixin TitleStyle {
-    font-size: $title-small-font-size;
+    font-size: $title-font-size;
     font-weight: 400;
     text-align: center;
 }

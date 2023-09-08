@@ -3,8 +3,6 @@ import React, { forwardRef } from 'react';
 import classes from './SponsorGroup.module.scss';
 import SponsorCard from '../../SponsorCard/SponsorCard';
 
-
-
 const SponsorGroup = forwardRef((props: any, ref: any) => {
 
     const sponsor1 = require('../../../assets/images/LOGOS/Cargill logo.jpg');
