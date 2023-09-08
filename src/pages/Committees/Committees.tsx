@@ -10,8 +10,10 @@ const Committees = () => {
 
     const supporter1 = require('../../assets/images/LOGOS/Destekleyen/trveormanbakanlğı.png');
     const supporter2 = require('../../assets/images/LOGOS/Destekleyen/uluslararasıhayvancılık.png');
-    const supporter3 = require('../../assets/images/LOGOS/Destekleyen/besd-bir.png');
-    const supporter4 = require('../../assets/images/LOGOS/Destekleyen/tr-yem-sanayicileri.png');
+    const supporter3 = require('../../assets/images/LOGOS/Destekleyen/tr-yem-sanayicileri.png');
+    const supporter4 = require('../../assets/images/LOGOS/Destekleyen/besd-bir.png');
+    const supporter5 = require('../../assets/images/LOGOS/Destekleyen/tuyekad.png');
+
 
     return (
         <div className={classes.Committees}>
@@ -85,22 +87,27 @@ const Committees = () => {
                 <SponsorCard
                     imageUrl={supporter1}
                     imageAlt='supporter1'
-                    customStyle={{ marginRight: '0', height: '25rem' }}
+                    customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
                 />
                 <SponsorCard
                     imageUrl={supporter2}
                     imageAlt='supporter2'
-                    customStyle={{ marginRight: '0', height: '25rem' }}
+                    customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
                 />
                 <SponsorCard
                     imageUrl={supporter3}
                     imageAlt='supporter3'
-                    customStyle={{ marginRight: '0', height: '25rem' }}
+                    customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
                 />
                 <SponsorCard
                     imageUrl={supporter4}
                     imageAlt='supporter4'
-                    customStyle={{ marginRight: '0', height: '25rem' }}
+                    customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
+                />
+                <SponsorCard
+                    imageUrl={supporter5}
+                    imageAlt='supporter5'
+                    customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
                 />
             </div>
         </div>

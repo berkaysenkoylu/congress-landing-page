@@ -21,8 +21,10 @@
     &__Supporters {
         margin-top: 4rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 25rem 25rem;
+        justify-items: center;
+        align-items: center;
         grid-gap: 3rem;
     }
 }
