@@ -5,26 +5,29 @@ import SponsorCard from '../../SponsorCard/SponsorCard';
 
 const SponsorGroup = forwardRef((props: any, ref: any) => {
 
-    const sponsor1 = require('../../../assets/images/LOGOS/Cargill logo.jpg');
-    const sponsor2 = require('../../../assets/images/LOGOS/dsm.png');
-    const sponsor3 = require('../../../assets/images/LOGOS/Elanco_logo.png');
-    const sponsor4 = require('../../../assets/images/LOGOS/huvepharma.jpg');
-    const sponsor5 = require('../../../assets/images/LOGOS/phibro_logo.png');
-    const sponsor6 = require('../../../assets/images/LOGOS/DSA-7x7-değişmiş-son-hali.jpg');
+    const cargillLogo = require('../../../assets/images/LOGOS/Cargill logo.jpg');
+    const dsmLogo = require('../../../assets/images/LOGOS/dsm.png');
+    const elancoLogo = require('../../../assets/images/LOGOS/Elanco_logo.png');
+    const mekoLogo = require('../../../assets/images/LOGOS/meko.png');
+    const huvepharmaLogo = require('../../../assets/images/LOGOS/huvepharma.jpg');
+    const phibroLogo = require('../../../assets/images/LOGOS/phibro_logo.png');
+    const dsaLogo = require('../../../assets/images/LOGOS/DSA-7x7-değişmiş-son-hali.jpg');
 
     return (
         <div className={classes.SponsorGroup} ref={ref}>
-            <SponsorCard imageUrl={sponsor1} imageAlt='sponsor1' />
+            <SponsorCard imageUrl={cargillLogo} imageAlt='cargillLogo' />
 
-            <SponsorCard imageUrl={sponsor2} imageAlt='sponsor2' />
+            <SponsorCard imageUrl={dsmLogo} imageAlt='dsmLogo' />
 
-            <SponsorCard imageUrl={sponsor3} imageAlt='sponsor3' />
+            <SponsorCard imageUrl={elancoLogo} imageAlt='elancoLogo' />
 
-            <SponsorCard imageUrl={sponsor4} imageAlt='sponsor4' />
+            <SponsorCard imageUrl={mekoLogo} imageAlt='mekoLogo' />
 
-            <SponsorCard imageUrl={sponsor5} imageAlt='sponsor5' />
+            <SponsorCard imageUrl={huvepharmaLogo} imageAlt='huvepharmaLogo' />
 
-            <SponsorCard imageUrl={sponsor6} imageAlt='sponsor6' />
+            <SponsorCard imageUrl={phibroLogo} imageAlt='phibroLogo' />
+
+            <SponsorCard imageUrl={dsaLogo} imageAlt='dsaLogo' />
         </div>
     )
 })
