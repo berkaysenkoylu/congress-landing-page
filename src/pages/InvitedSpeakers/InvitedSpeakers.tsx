@@ -8,8 +8,11 @@ const InvitedSpeakers = () => {
     const { i18n, t } = useTranslation();
 
     const muratUlkuPicture = require('../../assets/images/murat_karakus.png');
+    const numanAkmanPicture = require('../../assets/images/numan_akman.png');
     const ismetTurkmenPicture = require('../../assets/images/ismet_turkmen.png');
+    const nahitYazıcıogluPicture = require('../../assets/images/nahit_yazcıoglu.png');
     const birgerSvihusPicture = require('../../assets/images/birger_svihus.png');
+    const yvesNysPicture = require('../../assets/images/yves_nys.png');
 
     const currentLanguage = i18n.language;
 
@@ -33,6 +36,7 @@ const InvitedSpeakers = () => {
                     occupation={t("InvitedSpeakers.NumanAkman.Occupation")}
                     panel={t("InvitedSpeakers.NumanAkman.Panel")}
                     bio={t("InvitedSpeakers.NumanAkman.Bio")}
+                    img={numanAkmanPicture}
                 />
 
                 <SpeakerItem
@@ -58,6 +62,7 @@ const InvitedSpeakers = () => {
                     occupation={t("InvitedSpeakers.NahitYazıcıoğlu.Occupation")}
                     panel={t("InvitedSpeakers.NahitYazıcıoğlu.Panel")}
                     bio={t("InvitedSpeakers.NahitYazıcıoğlu.Bio")}
+                    img={nahitYazıcıogluPicture}
                 />
 
                 <SpeakerItem
@@ -67,6 +72,15 @@ const InvitedSpeakers = () => {
                     panel={t("InvitedSpeakers.BirgerSvihus.Panel")}
                     bio={t("InvitedSpeakers.BirgerSvihus.Bio")}
                     img={birgerSvihusPicture}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.YvesNys.Name")}
+                    status={t("InvitedSpeakers.YvesNys.Status")}
+                    occupation={t("InvitedSpeakers.YvesNys.Occupation")}
+                    panel={t("InvitedSpeakers.YvesNys.Panel")}
+                    bio={t("InvitedSpeakers.YvesNys.Bio")}
+                    img={yvesNysPicture}
                 />
             </div>  
         </div>

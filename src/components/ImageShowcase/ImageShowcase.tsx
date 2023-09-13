@@ -14,8 +14,6 @@ interface ImageShowcasePropsType {
 const ImageShowcase = (props: ImageShowcasePropsType) => {
     const { alt, imageUrl, isOverlayed, overlayTitle, overlaySubTitle, overlayTextPosition } = props;
 
-    console.log(window.innerWidth)
-
     let overlayTextStyle = {
         top: '50%'
     }
