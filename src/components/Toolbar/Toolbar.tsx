@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import classes from './Toolbar.module.scss';
-import IconButton from '../UI/IconButton/IconButton';
 
 const Toolbar = () => {
     const { i18n, t } = useTranslation();
@@ -21,8 +20,8 @@ const Toolbar = () => {
             <h2 className={classes.Toolbar__Title}>{t('Title').toLocaleUpperCase(currentLanguage === 'en' ? 'en-US': 'tr-TR')}</h2>
 
             <ul className={classes.Toolbar__Lang}>
-                {currentLanguage === 'en' ? <IconButton iconName='tr' clicked={onLanguageChange} /> : null}
-                {currentLanguage === 'tr' ? <IconButton iconName='en' clicked={onLanguageChange} /> : null}
+                {currentLanguage === 'en' ? <button className={classes.LangButton} onClick={() => onLanguageChange('tr')}>TR</button> : null}
+                {currentLanguage === 'tr' ? <button className={classes.LangButton} onClick={() => onLanguageChange('en')}>EN</button> : null}
             </ul>
         </div>
     );
