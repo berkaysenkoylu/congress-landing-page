@@ -13,6 +13,11 @@ const InvitedSpeakers = () => {
     const nahitYazıcıogluPicture = require('../../assets/images/nahit_yazcıoglu.png');
     const birgerSvihusPicture = require('../../assets/images/birger_svihus.png');
     const yvesNysPicture = require('../../assets/images/yves_nys.png');
+    const armaganHayirliPicture = require('../../assets/images/armagan_hayirli.png');
+    const annaCatharinaBergePicture = require('../../assets/images/anna_catharina.png');
+    const melihYavuzPicture = require('../../assets/images/melih_yavuz.png');
+    const muratGorguluPicture = require('../../assets/images/murat_gorgulu.png');
+    const antonellaCannasPicture = require('../../assets/images/antonello_cannas.png');
 
     const currentLanguage = i18n.language;
 
@@ -72,6 +77,7 @@ const InvitedSpeakers = () => {
                     panel={t("InvitedSpeakers.BirgerSvihus.Panel")}
                     bio={t("InvitedSpeakers.BirgerSvihus.Bio")}
                     img={birgerSvihusPicture}
+                    title={t("InvitedSpeakers.BirgerSvihus.Title")}
                 />
 
                 <SpeakerItem
@@ -81,6 +87,57 @@ const InvitedSpeakers = () => {
                     panel={t("InvitedSpeakers.YvesNys.Panel")}
                     bio={t("InvitedSpeakers.YvesNys.Bio")}
                     img={yvesNysPicture}
+                    title={t("InvitedSpeakers.YvesNys.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.ArmaganHayirli.Name")}
+                    status={t("InvitedSpeakers.ArmaganHayirli.Status")}
+                    occupation={t("InvitedSpeakers.ArmaganHayirli.Occupation")}
+                    panel={t("InvitedSpeakers.ArmaganHayirli.Panel")}
+                    bio={t("InvitedSpeakers.ArmaganHayirli.Bio")}
+                    img={armaganHayirliPicture}
+                    title={t("InvitedSpeakers.ArmaganHayirli.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.AnnaCatharinaBerge.Name")}
+                    status={t("InvitedSpeakers.AnnaCatharinaBerge.Status")}
+                    occupation={t("InvitedSpeakers.AnnaCatharinaBerge.Occupation")}
+                    panel={t("InvitedSpeakers.AnnaCatharinaBerge.Panel")}
+                    bio={t("InvitedSpeakers.AnnaCatharinaBerge.Bio")}
+                    img={annaCatharinaBergePicture}
+                    title={t("InvitedSpeakers.AnnaCatharinaBerge.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.MelihYavuz.Name")}
+                    status={t("InvitedSpeakers.MelihYavuz.Status")}
+                    occupation={t("InvitedSpeakers.MelihYavuz.Occupation")}
+                    panel={t("InvitedSpeakers.MelihYavuz.Panel")}
+                    bio={t("InvitedSpeakers.MelihYavuz.Bio")}
+                    img={melihYavuzPicture}
+                    title={t("InvitedSpeakers.MelihYavuz.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.MuratGorgulu.Name")}
+                    status={t("InvitedSpeakers.MuratGorgulu.Status")}
+                    occupation={t("InvitedSpeakers.MuratGorgulu.Occupation")}
+                    panel={t("InvitedSpeakers.MuratGorgulu.Panel")}
+                    bio={t("InvitedSpeakers.MuratGorgulu.Bio")}
+                    img={muratGorguluPicture}
+                    title={t("InvitedSpeakers.MuratGorgulu.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.AntonelloCannas.Name")}
+                    status={t("InvitedSpeakers.AntonelloCannas.Status")}
+                    occupation={t("InvitedSpeakers.AntonelloCannas.Occupation")}
+                    panel={t("InvitedSpeakers.AntonelloCannas.Panel")}
+                    bio={t("InvitedSpeakers.AntonelloCannas.Bio")}
+                    img={antonellaCannasPicture}
+                    title={t("InvitedSpeakers.AntonelloCannas.Title")}
                 />
             </div>  
         </div>

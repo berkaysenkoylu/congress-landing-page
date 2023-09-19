@@ -7,12 +7,13 @@ interface SpeakerItemPropsType {
     status?: string
     occupation: string
     panel: string
+    title?: string
     bio?: string
     img?: string
 }
 
 const SpeakerItem = (props: SpeakerItemPropsType) => {
-    const { name, status, occupation, panel, bio } = props;
+    const { name, status, occupation, panel, bio, title } = props;
     let { img } = props;
     const defaultImage = require('../../../assets/images/avatar-default.png');
 
@@ -34,7 +35,7 @@ const SpeakerItem = (props: SpeakerItemPropsType) => {
             </div>
             <div className={classes.SpeakerItem__Info}>
                 <div className={classes.SpeakerItem__Info__Panel}>
-                    <h2>Panel</h2>
+                    <h2>{title || 'Panel'}</h2>
                     <p>{panel}</p>
                 </div>
                 <div>
