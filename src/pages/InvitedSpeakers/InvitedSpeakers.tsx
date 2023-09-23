@@ -15,9 +15,11 @@ const InvitedSpeakers = () => {
     const yvesNysPicture = require('../../assets/images/yves_nys.png');
     const armaganHayirliPicture = require('../../assets/images/armagan_hayirli.png');
     const annaCatharinaBergePicture = require('../../assets/images/anna_catharina.png');
+    const hidirGencogluPicture = require('../../assets/images/hidir_gencoglu.png');
     const melihYavuzPicture = require('../../assets/images/melih_yavuz.png');
     const muratGorguluPicture = require('../../assets/images/murat_gorgulu.png');
     const antonellaCannasPicture = require('../../assets/images/antonello_cannas.png');
+    const RogerDavinPicture = require('../../assets/images/roger_davin.png');
 
     const currentLanguage = i18n.language;
 
@@ -111,6 +113,16 @@ const InvitedSpeakers = () => {
                 />
 
                 <SpeakerItem
+                    name={t("InvitedSpeakers.HidirGencoglu.Name")}
+                    status={t("InvitedSpeakers.HidirGencoglu.Status")}
+                    occupation={t("InvitedSpeakers.HidirGencoglu.Occupation")}
+                    panel={t("InvitedSpeakers.HidirGencoglu.Panel")}
+                    bio={t("InvitedSpeakers.HidirGencoglu.Bio")}
+                    img={hidirGencogluPicture}
+                    title={t("InvitedSpeakers.HidirGencoglu.Title")}
+                />
+
+                <SpeakerItem
                     name={t("InvitedSpeakers.MelihYavuz.Name")}
                     status={t("InvitedSpeakers.MelihYavuz.Status")}
                     occupation={t("InvitedSpeakers.MelihYavuz.Occupation")}
@@ -138,6 +150,16 @@ const InvitedSpeakers = () => {
                     bio={t("InvitedSpeakers.AntonelloCannas.Bio")}
                     img={antonellaCannasPicture}
                     title={t("InvitedSpeakers.AntonelloCannas.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.RogerDavin.Name")}
+                    status={t("InvitedSpeakers.RogerDavin.Status")}
+                    occupation={t("InvitedSpeakers.RogerDavin.Occupation")}
+                    panel={t("InvitedSpeakers.RogerDavin.Panel")}
+                    bio={t("InvitedSpeakers.RogerDavin.Bio")}
+                    img={RogerDavinPicture}
+                    title={t("InvitedSpeakers.RogerDavin.Title")}
                 />
             </div>  
         </div>
