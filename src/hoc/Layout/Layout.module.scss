@@ -8,7 +8,7 @@
     min-height: 50rem;
 
     section {
-        width: 100%;
+        min-width: 0;
     }
 
     @media only screen and (max-width: $bp-largest) {

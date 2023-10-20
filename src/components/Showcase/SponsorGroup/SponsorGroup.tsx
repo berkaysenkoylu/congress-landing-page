@@ -12,6 +12,7 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
     const makrovitLogo = require('../../../assets/images/LOGOS/makrovit.png');
     const mekoLogo = require('../../../assets/images/LOGOS/meko.png');
     const abpLogo = require('../../../assets/images/LOGOS/abp_logo.png');
+    const brtLogo = require('../../../assets/images/LOGOS/brt_logo.png');
     const huvepharmaLogo = require('../../../assets/images/LOGOS/huvepharma.jpg');
     const alltechLogo = require('../../../assets/images/LOGOS/alltech.png');
     const phibroLogo = require('../../../assets/images/LOGOS/phibro_logo.png');
@@ -32,6 +33,8 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
             <SponsorCard imageUrl={mekoLogo} imageAlt='mekoLogo' />
 
             <SponsorCard imageUrl={abpLogo} imageAlt='abpLogo' />
+
+            <SponsorCard imageUrl={brtLogo} imageAlt='brtLogo' />
 
             <SponsorCard imageUrl={huvepharmaLogo} imageAlt='huvepharmaLogo' />
 
