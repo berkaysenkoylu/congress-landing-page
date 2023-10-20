@@ -20,6 +20,7 @@ const InvitedSpeakers = () => {
     const muratGorguluPicture = require('../../assets/images/murat_gorgulu.png');
     const antonellaCannasPicture = require('../../assets/images/antonello_cannas.png');
     const RogerDavinPicture = require('../../assets/images/roger_davin.png');
+    const alperOnencPicture = require('../../assets/images/alper_onenc.png');
 
     const currentLanguage = i18n.language;
 
@@ -160,6 +161,16 @@ const InvitedSpeakers = () => {
                     bio={t("InvitedSpeakers.RogerDavin.Bio")}
                     img={RogerDavinPicture}
                     title={t("InvitedSpeakers.RogerDavin.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.AlperOnenc.Name")}
+                    status={t("InvitedSpeakers.AlperOnenc.Status")}
+                    occupation={t("InvitedSpeakers.AlperOnenc.Occupation")}
+                    panel={t("InvitedSpeakers.AlperOnenc.Panel")}
+                    bio={t("InvitedSpeakers.AlperOnenc.Bio")}
+                    img={alperOnencPicture}
+                    title={t("InvitedSpeakers.AlperOnenc.Title")}
                 />
             </div>  
         </div>
