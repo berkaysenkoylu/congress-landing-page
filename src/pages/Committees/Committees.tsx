@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import classes from './Committees.module.scss';
 import PersonCard from './PersonCard/PersonCard';
 import SponsorCard from '../../components/SponsorCard/SponsorCard';
+import ProgramTable from './ProgramTable/ProgramTable';
 
 const Committees = () => {
     const { i18n, t } = useTranslation();
@@ -109,6 +110,10 @@ const Committees = () => {
                     customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
                 />
             </div>
+
+            <h2>{t('Committees.Title4').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
+
+            <ProgramTable />
         </div>
     )
 }

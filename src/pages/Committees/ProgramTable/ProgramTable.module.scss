@@ -1,0 +1,70 @@
+@import '../../../variables';
+
+.ProgramTable {
+    @include TableStyle;
+    width: 100%;
+
+    thead {
+        td {
+            text-align: center;
+
+            h3 {
+                font-size: $title-x-small-font-size;
+
+                &:first-child {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    tbody td {
+        font-size: $small-font-size;
+    }
+
+    td {
+        border-color: $color-black;
+        border-style: solid;
+        border-width: 1px;
+        font-size: $default-font-size;
+        overflow: hidden;
+        padding: 1rem 0.5rem;
+        word-break: normal;
+    }
+
+    &__Row {
+        text-align: left;
+        vertical-align: top;
+
+        ul {
+            list-style: none;
+
+            li:not(:last-child) {
+                margin-bottom: 5px;
+            }
+        }
+
+        & > div {
+            &:first-child {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+.CenterText {
+    text-align: center;
+}
+
+.BoldText {
+    font-weight: 500;
+}
+
+.RedText {
+    color: $color-red;
+    font-weight: 500;
+}
+
+.MarginTop2halfrem {
+    margin-top: 2.5rem;
+}

@@ -17,6 +17,7 @@ const HOTEL_COORDS = {
 };
 
 const Accomodation = () => {
+    console.log(process.env.REACT_APP_MAPS_API_KEY)
     const { t } = useTranslation();
     const { isLoaded } = useJsApiLoader({
         googleMapsApiKey: process.env.REACT_APP_MAPS_API_KEY as string

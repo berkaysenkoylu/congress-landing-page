@@ -55,7 +55,7 @@ const App = () => {
 
     return (
         <Context.Provider value={[pageName, setPageName]}>
-            <Layout>
+            <Layout isComittee={pageName === "Committees"}>
                 <HelmetProvider>
                     <Helmet>
                         <meta charSet="utf-8" />
