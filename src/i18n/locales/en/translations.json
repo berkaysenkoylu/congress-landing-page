@@ -10,7 +10,8 @@
         "Accomodation": "Congress Venue",
         "Sponsors": "Our Sponsors",
         "Sponsorship": "Sponsorship",
-        "Contact": "Contact"
+        "Contact": "Contact",
+        "Program": "Program"
     },
     "Home": {
         "OverlayTitle": "4th International Animal Nutrition Congress",
@@ -34,9 +35,11 @@
         "Title1": "Organization Committee",
         "Title2": "Science Committee",
         "Title3": "Supporting Organizations",
-        "Title4": "Program",
         "StatusCongressChair": "Congress Chair",
-        "StatusChair": "Chair",
+        "StatusChair": "Chair"
+    },
+    "Program": {
+        "Title": "Program",
         "RuminantNutrition": "Ruminant Nutrition-#",
         "OralPresentations": "ORAL PRESENTATIONS",
         "CoffeeBreak": "Coffee Break",

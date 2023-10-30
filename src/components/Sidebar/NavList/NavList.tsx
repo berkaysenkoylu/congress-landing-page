@@ -22,6 +22,10 @@ const NavList = (props: any) => {
                 label={t("Navigation.Committees")}
             />
             <NavigationItem
+                pageName='Program'
+                label={t("Navigation.Program")}
+            />
+            <NavigationItem
                 pageName='InvitedSpeakers'
                 label={t("Navigation.InvitedSpeakers")}
             />

@@ -1,0 +1,10 @@
+@import '../../variables';
+
+.Program {
+    @include PageStyle;
+
+    h2 {
+        @include TitleStyle;
+        margin-bottom: 1.5rem;
+    }
+}
