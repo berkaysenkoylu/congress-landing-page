@@ -246,6 +246,8 @@ const ProgramTable = () => {
                     <td className={classes.ProgramTable__Row}>
                         <ul>
                             <li dangerouslySetInnerHTML={{ __html: t('Program.ProgramTableRow19Text2') }} />
+
+                            <li dangerouslySetInnerHTML={{ __html: t('Program.ProgramTableRow19Text3') }} />
                         </ul>
 
                         <div className={classes.MarginTop2halfrem}>{t('Program.OralPresentations')}</div>

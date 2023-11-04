@@ -9,6 +9,7 @@ const Toolbar = () => {
     const iconImage = require('../../assets/images/logo.png');
 
     const onLanguageChange = (name: string) => {
+        localStorage.setItem("CurrentLang", name);
         i18n.changeLanguage(name);
     }
 

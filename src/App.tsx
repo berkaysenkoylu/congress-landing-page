@@ -1,5 +1,6 @@
-import { useState, createContext } from 'react';
+import { useState, useEffect, createContext } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import './App.scss';
 import Layout from './hoc/Layout/Layout';
 import Committees from './pages/Committees/Committees';
@@ -17,7 +18,17 @@ import Program from './pages/Program/Program';
 export const Context = createContext<any[]>([]);
 
 const App = () => {
+    const { i18n } = useTranslation();
+    const [isReady, setIsReady] = useState(false);
     const [pageName, setPageName] = useState('Home');
+
+    useEffect(() => {
+        const currLang = localStorage.getItem('CurrentLang');
+        if (currLang && currLang !== '') {
+            i18n.changeLanguage(currLang);
+        }
+        setIsReady(true);
+    }, [i18n]);
 
     let content = <Home />;
 
@@ -59,7 +70,7 @@ const App = () => {
 
     return (
         <Context.Provider value={[pageName, setPageName]}>
-            <Layout isComittee={pageName === "Committees"}>
+            {isReady ? <Layout isComittee={pageName === "Committees"}>
                 <HelmetProvider>
                     <Helmet>
                         <meta charSet="utf-8" />
@@ -70,7 +81,7 @@ const App = () => {
                 </HelmetProvider>
 
                 {content}
-            </Layout>
+            </Layout> : null}
         </Context.Provider>
     )
 }

@@ -11,6 +11,7 @@ const InvitedSpeakers = () => {
     const numanAkmanPicture = require('../../assets/images/numan_akman.png');
     const ismetTurkmenPicture = require('../../assets/images/ismet_turkmen.png');
     const nahitYazıcıogluPicture = require('../../assets/images/nahit_yazcıoglu.png');
+    const ismailFilyaPicture = require('../../assets/images/ismail_filya.png');
     const birgerSvihusPicture = require('../../assets/images/birger_svihus.png');
     const yvesNysPicture = require('../../assets/images/yves_nys.png');
     const armaganHayirliPicture = require('../../assets/images/armagan_hayirli.png');
@@ -57,20 +58,21 @@ const InvitedSpeakers = () => {
                 />
 
                 <SpeakerItem
-                    name={t("InvitedSpeakers.İsmailFilya.Name")}
-                    status={t("InvitedSpeakers.İsmailFilya.Status")}
-                    occupation={t("InvitedSpeakers.İsmailFilya.Occupation")}
-                    panel={t("InvitedSpeakers.İsmailFilya.Panel")}
-                    bio={t("InvitedSpeakers.İsmailFilya.Bio")}
-                />
-
-                <SpeakerItem
                     name={t("InvitedSpeakers.NahitYazıcıoğlu.Name")}
                     status={t("InvitedSpeakers.NahitYazıcıoğlu.Status")}
                     occupation={t("InvitedSpeakers.NahitYazıcıoğlu.Occupation")}
                     panel={t("InvitedSpeakers.NahitYazıcıoğlu.Panel")}
                     bio={t("InvitedSpeakers.NahitYazıcıoğlu.Bio")}
                     img={nahitYazıcıogluPicture}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.İsmailFilya.Name")}
+                    status={t("InvitedSpeakers.İsmailFilya.Status")}
+                    occupation={t("InvitedSpeakers.İsmailFilya.Occupation")}
+                    panel={t("InvitedSpeakers.İsmailFilya.Panel")}
+                    bio={t("InvitedSpeakers.İsmailFilya.Bio")}
+                    img={ismailFilyaPicture}
                 />
 
                 <SpeakerItem

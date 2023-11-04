@@ -68,16 +68,26 @@ const Committees = () => {
 
             <h2>{t('Committees.Title2').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
 
-            <div className={classes.Committees__Science}>
-                <PersonCard
-                    name='Prof. Dr. Sakine YALÇIN'
-                    statusText={t('Committees.StatusChair')}
-                    customStyle={{
-                        gridColumn: window.innerWidth > 600 ? '2' : '2 / 4',
-                        gridRow: '1'
-                    }}
-                />
-            </div>
+            <ul className={classes.Committees__Science}>
+                <li><b>{t('Committees.StatusChair')}: </b>{t('Committees.ScientificCommitteeLine1')}</li>
+                <li>{t('Committees.ScientificCommitteeLine1')}</li>
+                <li>{t('Committees.ScientificCommitteeLine2')}</li>
+                <li>{t('Committees.ScientificCommitteeLine3')}</li>
+                <li>{t('Committees.ScientificCommitteeLine4')}</li>
+                <li>{t('Committees.ScientificCommitteeLine5')}</li>
+                <li>{t('Committees.ScientificCommitteeLine6')}</li>
+                <li>{t('Committees.ScientificCommitteeLine8')}</li>
+                <li>{t('Committees.ScientificCommitteeLine9')}</li>
+                <li>{t('Committees.ScientificCommitteeLine10')}</li>
+                <li>{t('Committees.ScientificCommitteeLine11')}</li>
+                <li>{t('Committees.ScientificCommitteeLine12')}</li>
+                <li>{t('Committees.ScientificCommitteeLine13')}</li>
+                <li>{t('Committees.ScientificCommitteeLine14')}</li>
+                <li>{t('Committees.ScientificCommitteeLine15')}</li>
+                <li>{t('Committees.ScientificCommitteeLine16')}</li>
+                <li>{t('Committees.ScientificCommitteeLine17')}</li>
+                <li>{t('Committees.ScientificCommitteeLine18')}</li>
+            </ul>
 
             <h2>{t('Committees.Title3').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
 
