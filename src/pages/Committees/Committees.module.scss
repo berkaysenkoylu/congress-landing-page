@@ -6,7 +6,6 @@
 
     h2 {
         @include TitleStyle;
-        margin-bottom: 1.5rem;
     }
 
     &__Organization {
@@ -24,14 +23,21 @@
     }
 
     &__Science {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
-        margin-bottom: 5rem;
+        margin-bottom: 7rem;
+        margin-top: 4rem;
         list-style: none;
-        font-size: $default-font-size;
+        font-size: $small-font-size;
 
         li:not(:last-child) {
-            margin-bottom: 5px;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            b {
+                font-size: $default-font-size;
+            }
         }
     }
 

@@ -69,24 +69,24 @@ const Committees = () => {
             <h2>{t('Committees.Title2').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
 
             <ul className={classes.Committees__Science}>
-                <li><b>{t('Committees.StatusChair')}: </b>{t('Committees.ScientificCommitteeLine1')}</li>
-                <li>{t('Committees.ScientificCommitteeLine1')}</li>
-                <li>{t('Committees.ScientificCommitteeLine2')}</li>
-                <li>{t('Committees.ScientificCommitteeLine3')}</li>
-                <li>{t('Committees.ScientificCommitteeLine4')}</li>
-                <li>{t('Committees.ScientificCommitteeLine5')}</li>
-                <li>{t('Committees.ScientificCommitteeLine6')}</li>
-                <li>{t('Committees.ScientificCommitteeLine8')}</li>
-                <li>{t('Committees.ScientificCommitteeLine9')}</li>
-                <li>{t('Committees.ScientificCommitteeLine10')}</li>
-                <li>{t('Committees.ScientificCommitteeLine11')}</li>
-                <li>{t('Committees.ScientificCommitteeLine12')}</li>
-                <li>{t('Committees.ScientificCommitteeLine13')}</li>
-                <li>{t('Committees.ScientificCommitteeLine14')}</li>
-                <li>{t('Committees.ScientificCommitteeLine15')}</li>
-                <li>{t('Committees.ScientificCommitteeLine16')}</li>
-                <li>{t('Committees.ScientificCommitteeLine17')}</li>
-                <li>{t('Committees.ScientificCommitteeLine18')}</li>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine1')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine2')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine3')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine4')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine5')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine6')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine7')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine8')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine9')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine10')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine11')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine12')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine13')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine14')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine15')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine16')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine17')}}/>
+                <li dangerouslySetInnerHTML={{ __html: t('Committees.ScientificCommitteeLine18')}}/>
             </ul>
 
             <h2>{t('Committees.Title3').toLocaleUpperCase(i18n.language === 'en' ? 'en-US': 'tr-TR')}</h2>
