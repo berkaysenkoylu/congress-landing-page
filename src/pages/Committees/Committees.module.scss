@@ -23,12 +23,16 @@
     }
 
     &__Science {
+        border: 2px solid $main-color-dark;
+        background-color: rgba($color-white, 1);
+        border-radius: 8px;
         width: 90%;
         margin: 0 auto;
         margin-bottom: 7rem;
         margin-top: 4rem;
         list-style: none;
         font-size: $small-font-size;
+        padding: 2rem;
 
         li:not(:last-child) {
             margin-bottom: 1.5rem;
