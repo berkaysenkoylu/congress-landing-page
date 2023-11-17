@@ -22,6 +22,8 @@ const InvitedSpeakers = () => {
     const antonellaCannasPicture = require('../../assets/images/antonello_cannas.png');
     const RogerDavinPicture = require('../../assets/images/roger_davin.png');
     const alperOnencPicture = require('../../assets/images/alper_onenc.png');
+    const ladineCelikPicture = require('../../assets/images/LadineCelk.png');
+    const nataliaSoaresPicture = require('../../assets/images/NataliaSoares.png');
 
     const currentLanguage = i18n.language;
 
@@ -173,6 +175,26 @@ const InvitedSpeakers = () => {
                     bio={t("InvitedSpeakers.AlperOnenc.Bio")}
                     img={alperOnencPicture}
                     title={t("InvitedSpeakers.AlperOnenc.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.LadineCelik.Name")}
+                    status={t("InvitedSpeakers.LadineCelik.Status")}
+                    occupation={t("InvitedSpeakers.LadineCelik.Occupation")}
+                    panel={t("InvitedSpeakers.LadineCelik.Panel")}
+                    bio={t("InvitedSpeakers.LadineCelik.Bio")}
+                    img={ladineCelikPicture}
+                    title={t("InvitedSpeakers.LadineCelik.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.NataliaSoares.Name")}
+                    status={t("InvitedSpeakers.NataliaSoares.Status")}
+                    occupation={t("InvitedSpeakers.NataliaSoares.Occupation")}
+                    panel={t("InvitedSpeakers.NataliaSoares.Panel")}
+                    bio={t("InvitedSpeakers.NataliaSoares.Bio")}
+                    img={nataliaSoaresPicture}
+                    title={t("InvitedSpeakers.NataliaSoares.Title")}
                 />
             </div>  
         </div>
