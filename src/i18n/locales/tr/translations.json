@@ -126,7 +126,8 @@
         "ProgramTableRow19Col1": "9. Oturum 16:00 - 17:30",
         "ProgramTableRow19Text1": "KANATLI BESLEME - 2",
         "ProgramTableRow19Text2": "<p>Yavaş Büyüyen Broyler Hatlarının Besleme Stratejileri ve Rasyon Ca/P Dengesi, <b>Dr. Roger Davin</b>, Kanatlı Hayvan Besleme Kıdemli Danışmanı ve Ürün Müdürü, Schothorst Feed Research, Hollanda</p>",
-        "ProgramTableRow19Text3": "<p>Lif Parçalayıcı Enzimler Etlik Piliçlerde Fermantasyon Modellerini ve Besin Yararlanımını Değiştirir, <b>Natalia Soares</b>Huvepharma Global Enzim Teknik Müdürü, Antwerp, Belçika</p>",
+        "ProgramTableRow19Text3": "<p>Lif Parçalayıcı Enzimler Etlik Piliçlerde Fermantasyon Modellerini ve Besin Yararlanımını Değiştirir, <b>Natalia Soares</b> Huvepharma Global Enzim Teknik Müdürü, Antwerp, Belçika</p>",
+        "ProgramTableRow19Text4": "<p>Esansiyel Yağların Etkisi: Kümes Hayvanlarının Performansının ve Sağlığının İyileştirilmesinde Erken Beslemenin Rolü, <b>Prof. Dr. Ladine Baykal Çelik</b> Çukurova Üniversitesi, Ziraat Fakültesi, Adana</p>",
         "ProgramTableRow20Col1": "Ara 17:30 - 17:45",
         "ProgramTableRow21Col1": "10. Oturum 17:45 - 19:00",
         "ProgramTableRow21Text1": "YEM KATKILARI ve DİĞER HAYVANLARIN BESLENMESİ",
@@ -175,9 +176,9 @@
         "Table2Row1Col1": "Bildiri tam metin gönderme son tarih",
         "Table2Row2Col1": "Bildiri değerlendirme son tarih",
         "Table2Row3Col1": "Bildirili katılımcılar için kongre ücretini son yatırma tarihi",
-        "Table2Row1Col2": "20 Kasım 2023",
-        "Table2Row2Col2": "11 Aralık 2023",
-        "Table2Row3Col2": "18 Aralık 2023",
+        "Table2Row1Col2": "15 Aralık 2023",
+        "Table2Row2Col2": "25 Aralık 2023",
+        "Table2Row3Col2": "29 Aralık 2023",
         "Table2Note": "<b>Kongre ücretini yatırmayanların, bildiri metinleri kongre kitabında ve kongre web’te yer almayacaktır.</b>"
     },
     "CongressVenue": {
