@@ -5,6 +5,8 @@ import SponsorCard from '../../SponsorCard/SponsorCard';
 
 const SponsorGroup = forwardRef((props: any, ref: any) => {
 
+    const tekafosLogo = require('../../../assets/images/LOGOS/tekafos.png');
+    const tryembirLogo = require('../../../assets/images/LOGOS/tryembirLogo.png');
     const cargillLogo = require('../../../assets/images/LOGOS/Cargill logo.jpg');
     const dsmLogo = require('../../../assets/images/LOGOS/dsm.png');
     const adisseoLogo = require('../../../assets/images/LOGOS/adisseo.png');
@@ -20,6 +22,10 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
 
     return (
         <div className={classes.SponsorGroup} ref={ref}>
+            <SponsorCard imageUrl={tekafosLogo} imageAlt='tekafosLogo' />
+
+            <SponsorCard imageUrl={tryembirLogo} imageAlt='tryembirLogo' />
+
             <SponsorCard imageUrl={cargillLogo} imageAlt='cargillLogo' />
 
             <SponsorCard imageUrl={dsmLogo} imageAlt='dsmLogo' />

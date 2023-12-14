@@ -6,7 +6,7 @@ import SponsorGroup from './SponsorGroup/SponsorGroup';
 
 const Showcase = () => {
     const { t } = useTranslation();
-    const [translateValue, setTranslateValue] = useState(0);
+    const [translateValue, setTranslateValue] = useState(200);
     const showCaseSponsorsRef = useRef<HTMLDivElement>(null);
     const sponsorsRef = useRef<HTMLDivElement>(null);
     const intervalRef = useRef<ReturnType<typeof setInterval>>();
