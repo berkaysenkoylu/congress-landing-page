@@ -8,7 +8,7 @@ const InvitedSpeakers = () => {
     const { i18n, t } = useTranslation();
 
     const muratUlkuPicture = require('../../assets/images/murat_karakus.png');
-    const numanAkmanPicture = require('../../assets/images/numan_akman.png');
+    const muhittinOzderPicture = require('../../assets/images/muhittin_ozder.png');
     const ismetTurkmenPicture = require('../../assets/images/ismet_turkmen.png');
     const nahitYazıcıogluPicture = require('../../assets/images/nahit_yazcıoglu.png');
     const ismailFilyaPicture = require('../../assets/images/ismail_filya.png');
@@ -42,12 +42,12 @@ const InvitedSpeakers = () => {
                 />
 
                 <SpeakerItem
-                    name={t("InvitedSpeakers.NumanAkman.Name")}
-                    status={t("InvitedSpeakers.NumanAkman.Status")}
-                    occupation={t("InvitedSpeakers.NumanAkman.Occupation")}
-                    panel={t("InvitedSpeakers.NumanAkman.Panel")}
-                    bio={t("InvitedSpeakers.NumanAkman.Bio")}
-                    img={numanAkmanPicture}
+                    name={t("InvitedSpeakers.MuhittinOzer.Name")}
+                    status={t("InvitedSpeakers.MuhittinOzer.Status")}
+                    occupation={t("InvitedSpeakers.MuhittinOzer.Occupation")}
+                    panel={t("InvitedSpeakers.MuhittinOzer.Panel")}
+                    bio={t("InvitedSpeakers.MuhittinOzer.Bio")}
+                    img={muhittinOzderPicture}
                 />
 
                 <SpeakerItem
