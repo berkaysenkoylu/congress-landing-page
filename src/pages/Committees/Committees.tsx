@@ -10,9 +10,8 @@ const Committees = () => {
     const supporter1 = require('../../assets/images/LOGOS/Destekleyen/trveormanbakanlğı.png');
     const supporter2 = require('../../assets/images/LOGOS/Destekleyen/uluslararasıhayvancılık.png');
     const supporter3 = require('../../assets/images/LOGOS/Destekleyen/tr-yem-sanayicileri.png');
-    const supporter4 = require('../../assets/images/LOGOS/Destekleyen/yuniko_logo.png');
-    const supporter5 = require('../../assets/images/LOGOS/Destekleyen/besd-bir.png');
-    const supporter6 = require('../../assets/images/LOGOS/Destekleyen/tuyekad.png');
+    const supporter4 = require('../../assets/images/LOGOS/Destekleyen/besd-bir.png');
+    const supporter5 = require('../../assets/images/LOGOS/Destekleyen/tuyekad.png');
 
     return (
         <div className={classes.Committees}>
@@ -116,11 +115,6 @@ const Committees = () => {
                 <SponsorCard
                     imageUrl={supporter5}
                     imageAlt='supporter5'
-                    customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
-                />
-                <SponsorCard
-                    imageUrl={supporter6}
-                    imageAlt='supporter6'
                     customStyle={{ marginRight: '0', height: '25rem', maxWidth: '25rem' }}
                 />
             </div>

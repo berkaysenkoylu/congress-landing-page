@@ -20,12 +20,16 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
     const phibroLogo = require('../../../assets/images/LOGOS/phibro_logo.png');
     const dsaLogo = require('../../../assets/images/LOGOS/DSA-7x7-değişmiş-son-hali.jpg');
     const rumenpaLogo = require('../../../assets/images/LOGOS/rumenpa_logo.png');
+    const yunikoLogo = require('../../../assets/images/LOGOS/yuniko_logo.png');
+    const parsanalitikLogo = require('../../../assets/images/LOGOS/parsanalitik_logo.png');
 
     return (
         <div className={classes.SponsorGroup} ref={ref}>
             <SponsorCard imageUrl={tekafosLogo} imageAlt='tekafosLogo' />
 
             <SponsorCard imageUrl={tryembirLogo} imageAlt='tryembirLogo' />
+
+            <SponsorCard imageUrl={yunikoLogo} imageAlt='yunikoLogo' />
 
             <SponsorCard imageUrl={cargillLogo} imageAlt='cargillLogo' />
 
@@ -36,6 +40,8 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
             <SponsorCard imageUrl={elancoLogo} imageAlt='elancoLogo' />
 
             <SponsorCard imageUrl={makrovitLogo} imageAlt='makrovitLogo' />
+
+            <SponsorCard imageUrl={parsanalitikLogo} imageAlt='parsanalitikLogo' />
 
             <SponsorCard imageUrl={mekoLogo} imageAlt='mekoLogo' />
 
