@@ -13,6 +13,7 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
     const elancoLogo = require('../../../assets/images/LOGOS/Elanco_logo.png');
     const makrovitLogo = require('../../../assets/images/LOGOS/makrovit.png');
     const mekoLogo = require('../../../assets/images/LOGOS/meko.png');
+    const ewNutritionLogo = require('../../../assets/images/LOGOS/ew_nutrition_logo.png');
     const abpLogo = require('../../../assets/images/LOGOS/abp_logo.png');
     const brtLogo = require('../../../assets/images/LOGOS/brt_logo.png');
     const huvepharmaLogo = require('../../../assets/images/LOGOS/huvepharma.jpg');
@@ -22,6 +23,7 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
     const rumenpaLogo = require('../../../assets/images/LOGOS/rumenpa_logo.png');
     const yunikoLogo = require('../../../assets/images/LOGOS/yuniko_logo.png');
     const parsanalitikLogo = require('../../../assets/images/LOGOS/parsanalitik_logo.png');
+    const doaNutritionLogo = require('../../../assets/images/LOGOS/doa_nutrition_logo.png');
 
     return (
         <div className={classes.SponsorGroup} ref={ref}>
@@ -45,6 +47,8 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
 
             <SponsorCard imageUrl={mekoLogo} imageAlt='mekoLogo' />
 
+            <SponsorCard imageUrl={ewNutritionLogo} imageAlt='ewNutritionLogo' />
+
             <SponsorCard imageUrl={abpLogo} imageAlt='abpLogo' />
 
             <SponsorCard imageUrl={brtLogo} imageAlt='brtLogo' />
@@ -58,6 +62,8 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
             <SponsorCard imageUrl={dsaLogo} imageAlt='dsaLogo' />
 
             <SponsorCard imageUrl={rumenpaLogo} imageAlt='rumenpaLogo' />
+
+            <SponsorCard imageUrl={doaNutritionLogo} imageAlt='doaNutritionLogo' />
         </div>
     )
 })
