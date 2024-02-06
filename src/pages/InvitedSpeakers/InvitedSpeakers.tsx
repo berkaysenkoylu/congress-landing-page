@@ -7,7 +7,7 @@ import SpeakerItem from './SpeakerItem/SpeakerItem';
 const InvitedSpeakers = () => {
     const { i18n, t } = useTranslation();
 
-    const muratUlkuPicture = require('../../assets/images/murat_karakus.png');
+    const nizamettinSenkoyluPicture = require('../../assets/images/nizamettin_senkoylu.png');
     const muhittinOzderPicture = require('../../assets/images/muhittin_ozder.png');
     const ismetTurkmenPicture = require('../../assets/images/ismet_turkmen.png');
     const farukOzbeyPicture = require('../../assets/images/faruk_ozbey.png');
@@ -33,12 +33,12 @@ const InvitedSpeakers = () => {
 
             <div>
                 <SpeakerItem
-                    name={t("InvitedSpeakers.MuratUlku.Name")}
-                    status={t("InvitedSpeakers.MuratUlku.Status")}
-                    occupation={t("InvitedSpeakers.MuratUlku.Occupation")}
-                    panel={t("InvitedSpeakers.MuratUlku.Panel")}
-                    bio={t("InvitedSpeakers.MuratUlku.Bio")}
-                    img={muratUlkuPicture}
+                    name={t("InvitedSpeakers.NizamettinSenkoylu.Name")}
+                    status={t("InvitedSpeakers.NizamettinSenkoylu.Status")}
+                    occupation={t("InvitedSpeakers.NizamettinSenkoylu.Occupation")}
+                    panel={t("InvitedSpeakers.NizamettinSenkoylu.Panel")}
+                    bio={t("InvitedSpeakers.NizamettinSenkoylu.Bio")}
+                    img={nizamettinSenkoyluPicture}
                 />
 
                 <SpeakerItem
@@ -60,21 +60,21 @@ const InvitedSpeakers = () => {
                 />
 
                 <SpeakerItem
-                    name={t("InvitedSpeakers.FarukOzbey.Name")}
-                    status={t("InvitedSpeakers.FarukOzbey.Status")}
-                    occupation={t("InvitedSpeakers.FarukOzbey.Occupation")}
-                    panel={t("InvitedSpeakers.FarukOzbey.Panel")}
-                    bio={t("InvitedSpeakers.FarukOzbey.Bio")}
-                    img={farukOzbeyPicture}
-                />
-
-                <SpeakerItem
                     name={t("InvitedSpeakers.İsmailFilya.Name")}
                     status={t("InvitedSpeakers.İsmailFilya.Status")}
                     occupation={t("InvitedSpeakers.İsmailFilya.Occupation")}
                     panel={t("InvitedSpeakers.İsmailFilya.Panel")}
                     bio={t("InvitedSpeakers.İsmailFilya.Bio")}
                     img={ismailFilyaPicture}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.FarukOzbey.Name")}
+                    status={t("InvitedSpeakers.FarukOzbey.Status")}
+                    occupation={t("InvitedSpeakers.FarukOzbey.Occupation")}
+                    panel={t("InvitedSpeakers.FarukOzbey.Panel")}
+                    bio={t("InvitedSpeakers.FarukOzbey.Bio")}
+                    img={farukOzbeyPicture}
                 />
 
                 <SpeakerItem
