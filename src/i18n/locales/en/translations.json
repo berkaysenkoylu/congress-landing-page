@@ -152,7 +152,7 @@
         "Title6": "Deadlines for the Manuscripts",
         "FlashText": "Registration for the congress has started.",
         "Text1": "Congress participation and registration is for a 3-day room package. Hotel check-in is on 29th February and check-out is on 3rd March 2024 for a 3-night stay. Room prices package has been shown in the below table depending upon membership of the Association and early registration. Early registration is more advantageous at 10% lower than late registration prices. For children accompanying their parents, the first kid at 0-9.99 age is free, the second kid at 0-2.99 age is free and if 3-9.99 age the second kid is 50% reduced.",
-        "Table1Title": "Room package registration (3 days accommodation) prices in EURO according to membership, room type, and registration time (including VIT and 2% accommodation tax)",
+        "Table1Title": "Room package registration (3 days accommodation) prices in EURO according to membership, room type, and registration time",
         "RoomType": "Room type",
         "EarlyReg": "Early Registration",
         "LateReg": "Late Registration",
@@ -179,7 +179,8 @@
         "Table2Row1Col2": "15th December 2023",
         "Table2Row2Col2": "25th December 2023",
         "Table2Row3Col2": "29th December 2023",
-        "Table2Note": "Papers of those who has not paid the congress fee will not be included in the congress book and the congress web."
+        "Table2Note": "Papers of those who has not paid the congress fee will not be included in the congress book and the congress web.",
+        "NewPaymentText": "Application will be made to the board of directors of the association."
     },
     "CongressVenue": {
         "MapsTitle": "LOCATION",

@@ -111,10 +111,12 @@ const CongressRegistration = () => {
 
             <h4>{t('Registration.Title3')}</h4>
 
-            <p dangerouslySetInnerHTML={{ __html: t('Registration.Payment1') }} />
+            {/* <p dangerouslySetInnerHTML={{ __html: t('Registration.Payment1') }} />
             <p dangerouslySetInnerHTML={{ __html: t('Registration.Payment2') }} />
             <p dangerouslySetInnerHTML={{ __html: t('Registration.Payment3') }} />
-            <p dangerouslySetInnerHTML={{ __html: t('Registration.Payment4') }} />
+            <p dangerouslySetInnerHTML={{ __html: t('Registration.Payment4') }} /> */}
+
+            <p dangerouslySetInnerHTML={{ __html: t('Registration.NewPaymentText') }} />
 
             <h4>{t('Registration.Title4')}</h4>
 

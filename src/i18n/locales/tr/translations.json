@@ -152,7 +152,7 @@
         "Title6": "Bildiri için Önemli Tarihler",
         "FlashText": "Kongre için kayıt başlamıştır.",
         "Text1": "Kongreye paket program kapsamında katılım söz konusudur. Paket program <b>3 gece konaklamalı</b> kongre katılımı için geçerlidir. Konaklama, 29 Şubat giriş ve 3 Mart çıkış olmak üzere 3 (üç) geceliktir. Paket programa göre dernek üyelerimize ve diğer katılımcılara oda tipine göre uygulanacak günlük konaklama ücretleri aşağıdaki tabloda yer almaktadır. Erken kayıt yaptıracak katılımcılara avantaj sağlanmıştır. İki yetişkin yanında kalacak 0-9.99 yaş 1. çocuk ücretsiz, 0-2.99 yaş 2. çocuk ücretsiz, 3-9.99 yaş 2. çocuk  %50 indirimlidir.",
-        "Table1Title": "Oda Tipi ve Kayıt Dönemine Göre <u>3 Günlük Paket</u> Konaklama Ücretleri (EURO olarak KDV ve %2 Konaklama Vergisi dahil):",
+        "Table1Title": "Oda Tipi ve Kayıt Dönemine Göre <u>3 Günlük Paket</u> Konaklama Ücretleri:",
         "RoomType": "ODA TİPİ",
         "EarlyReg": "ERKEN KAYIT",
         "LateReg": "GEÇ KAYIT",
@@ -179,7 +179,8 @@
         "Table2Row1Col2": "15 Aralık 2023",
         "Table2Row2Col2": "25 Aralık 2023",
         "Table2Row3Col2": "29 Aralık 2023",
-        "Table2Note": "<b>Kongre ücretini yatırmayanların, bildiri metinleri kongre kitabında ve kongre web’te yer almayacaktır.</b>"
+        "Table2Note": "<b>Kongre ücretini yatırmayanların, bildiri metinleri kongre kitabında ve kongre web’te yer almayacaktır.</b>",
+        "NewPaymentText": "Derneğin yönetim kuruluna başvurulacak."
     },
     "CongressVenue": {
         "MapsTitle": "KONUM",
