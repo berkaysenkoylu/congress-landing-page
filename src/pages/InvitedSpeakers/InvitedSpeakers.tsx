@@ -24,6 +24,10 @@ const InvitedSpeakers = () => {
     const alperOnencPicture = require('../../assets/images/alper_onenc.png');
     const ladineCelikPicture = require('../../assets/images/LadineCelk.png');
     const nataliaSoaresPicture = require('../../assets/images/NataliaSoares.png');
+    const sevcanSenturkPicture = require('../../assets/images/sevcan_senturk.png');
+    const gulferGiritPicture = require('../../assets/images/Gulfer_girit.png');
+    const oguzhanKaratasPicture = require('../../assets/images/oguzhan_karatas.png');
+    const ahmetDurmazPicture = require('../../assets/images/ahmet_durmaz.png');
 
     const currentLanguage = i18n.language;
 
@@ -195,6 +199,46 @@ const InvitedSpeakers = () => {
                     bio={t("InvitedSpeakers.NataliaSoares.Bio")}
                     img={nataliaSoaresPicture}
                     title={t("InvitedSpeakers.NataliaSoares.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.SevcanSenturk.Name")}
+                    status={t("InvitedSpeakers.SevcanSenturk.Status")}
+                    occupation={t("InvitedSpeakers.SevcanSenturk.Occupation")}
+                    panel={t("InvitedSpeakers.SevcanSenturk.Panel")}
+                    bio={t("InvitedSpeakers.SevcanSenturk.Bio")}
+                    img={sevcanSenturkPicture}
+                    title={t("InvitedSpeakers.SevcanSenturk.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.GulferGirit.Name")}
+                    status={t("InvitedSpeakers.GulferGirit.Status")}
+                    occupation={t("InvitedSpeakers.GulferGirit.Occupation")}
+                    panel={t("InvitedSpeakers.GulferGirit.Panel")}
+                    bio={t("InvitedSpeakers.GulferGirit.Bio")}
+                    img={gulferGiritPicture}
+                    title={t("InvitedSpeakers.GulferGirit.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.OguzhanKaratas.Name")}
+                    status={t("InvitedSpeakers.OguzhanKaratas.Status")}
+                    occupation={t("InvitedSpeakers.OguzhanKaratas.Occupation")}
+                    panel={t("InvitedSpeakers.OguzhanKaratas.Panel")}
+                    bio={t("InvitedSpeakers.OguzhanKaratas.Bio")}
+                    img={oguzhanKaratasPicture}
+                    title={t("InvitedSpeakers.OguzhanKaratas.Title")}
+                />
+
+                <SpeakerItem
+                    name={t("InvitedSpeakers.AhmetDurmaz.Name")}
+                    status={t("InvitedSpeakers.AhmetDurmaz.Status")}
+                    occupation={t("InvitedSpeakers.AhmetDurmaz.Occupation")}
+                    panel={t("InvitedSpeakers.AhmetDurmaz.Panel")}
+                    bio={t("InvitedSpeakers.AhmetDurmaz.Bio")}
+                    img={ahmetDurmazPicture}
+                    title={t("InvitedSpeakers.AhmetDurmaz.Title")}
                 />
             </div>  
         </div>
