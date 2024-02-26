@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.Notice {
+    font-size: $title-font_size;
+    margin: 8rem 0;
+    animation: Flash 1.5s ease-in infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: $color-red;
+    }
+
+    svg {
+        fill: $color-red;
+        height: 2rem;
+        width: 2rem;
+        margin: 0 8px;
+
+        @media only screen and (max-width: $bp-small) {
+            display: none;
+        }
+    }
+}
+
+@keyframes Flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.15;
+    }
+    100% {
+        opacity: 1;
+    }
+}

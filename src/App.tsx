@@ -10,10 +10,11 @@ import Accomodation from './pages/Accomodation/Accomodation';
 import Sponsorship from './pages/Sponsorship/Sponsorship';
 import Contact from './pages/Contact/Contact';
 import Paper from './pages/Paper/Paper';
-import Sponsors from './pages/Sponsors/Sponsors';
+// import Sponsors from './pages/Sponsors/Sponsors';
 import Invitation from './pages/Invitation/Invitation';
 import InvitedSpeakers from './pages/InvitedSpeakers/InvitedSpeakers';
 import Program from './pages/Program/Program';
+import TransferSchedule from './pages/TransferSchedule/TransferSchedule';
 
 export const Context = createContext<any[]>([]);
 
@@ -45,9 +46,12 @@ const App = () => {
         case 'Accomodation':
             content = <Accomodation />;
             break;
-        case 'Sponsors':
-            content = <Sponsors />;
-            break;
+        case 'TransferSchedule':
+            content = <TransferSchedule />;
+            break
+        // case 'Sponsors':
+        //     content = <Sponsors />;
+        //     break;
         case 'Sponsorship':
             content = <Sponsorship />;
             break
@@ -70,7 +74,7 @@ const App = () => {
 
     return (
         <Context.Provider value={[pageName, setPageName]}>
-            {isReady ? <Layout isComittee={pageName === "Committees"} isProgram={pageName === "Program"}>
+            {isReady ? <Layout isComittee={pageName === "Committees"} isProgram={pageName === "Program" || pageName === "TransferSchedule"}>
                 <HelmetProvider>
                     <Helmet>
                         <meta charSet="utf-8" />

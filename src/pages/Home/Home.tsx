@@ -5,6 +5,7 @@ import classes from './Home.module.scss';
 import ImageShowcase from '../../components/ImageShowcase/ImageShowcase';
 import Clock from '../../components/Clock/Clock';
 import Showcase from '../../components/Showcase/Showcase';
+import Notice from '../../components/Notice/Notice';
 
 const Home = () => {
     const { t } = useTranslation();
@@ -21,6 +22,8 @@ const Home = () => {
                 isOverlayed
                 overlayTextPosition='Top'
             />
+
+            <Notice />
 
             <Clock />
 

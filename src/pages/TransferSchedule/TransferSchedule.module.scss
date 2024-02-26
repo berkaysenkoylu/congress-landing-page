@@ -1,0 +1,81 @@
+@import '../../variables';
+
+.TransferSchedule {
+    @include PageStyle;
+    font-size: $small-font-size;
+
+    h2 {
+        @include TitleStyle;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: $title-x-small-font-size;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__Tables {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 6rem;
+
+        h4 {
+            margin-top: 1.2rem;
+            font-weight: 500;
+            color: $color-red;
+            font-size: $default-font-size;
+        }
+    }
+
+    &__Table {
+        text-align: center;
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            text-align: left;
+            margin: 3rem auto 0 auto;
+            width: 40%;
+        }
+
+        &:last-child {
+            margin-top: 8rem;
+        }
+    }
+
+    thead {
+        td {
+            text-align: center;
+            font-weight: 500;
+
+            h3 {
+                font-size: $title-x-small-font-size;
+
+                &:first-child {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    tbody td {
+        font-size: $small-font-size;
+    }
+
+    td {
+        border-color: $color-black;
+        border-style: solid;
+        border-width: 1px;
+        font-size: $default-font-size;
+        overflow: hidden;
+        padding: 1rem 0.5rem;
+        word-break: normal;
+    }
+
+    &__TableRow {
+        text-align: center;
+        vertical-align: top;
+    }
+}

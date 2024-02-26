@@ -8,10 +8,12 @@
         "InvitedSpeakers": "Davetli konuşmacılar",
         "CongressRegistration": "Kongre kaydı",
         "Accomodation": "Kongre yeri",
+        "TransferSchedule": "Transfer saatleri",
         "Sponsors": "Sponsorlarımız",
         "Sponsorship": "Sponsorluk",
         "Contact": "İletişim",
-        "Program": "Program"
+        "Program": "Program",
+        "Notice": "Havaalanı transfer programı için lütfen tıklayınız!"
     },
     "Home": {
         "OverlayTitle": "4.Uluslararası Hayvan Besleme Kongresi",
@@ -150,7 +152,7 @@
         "Title4": "Kongre Dili",
         "Title5": "Bildiriler",
         "Title6": "Bildiri için Önemli Tarihler",
-        "FlashText": "Kongre için kayıt başlamıştır.",
+        "FlashText": "Kongre için kayıtlar kapanmıştır.",
         "Text1": "Kongreye paket program kapsamında katılım söz konusudur. Paket program <b>3 gece konaklamalı</b> kongre katılımı için geçerlidir. Konaklama, 29 Şubat giriş ve 3 Mart çıkış olmak üzere 3 (üç) geceliktir. Paket programa göre dernek üyelerimize ve diğer katılımcılara oda tipine göre uygulanacak günlük konaklama ücretleri aşağıdaki tabloda yer almaktadır. Erken kayıt yaptıracak katılımcılara avantaj sağlanmıştır. İki yetişkin yanında kalacak 0-9.99 yaş 1. çocuk ücretsiz, 0-2.99 yaş 2. çocuk ücretsiz, 3-9.99 yaş 2. çocuk  %50 indirimlidir.",
         "Table1Title": "Oda Tipi ve Kayıt Dönemine Göre <u>3 Günlük Paket</u> Konaklama Ücretleri:",
         "RoomType": "ODA TİPİ",
@@ -186,6 +188,15 @@
         "MapsTitle": "KONUM",
         "MapsInfoLink": "<a target='blank' href='https://www.google.com/maps/place/Concorde+De+Luxe+Resort/@36.8803512,30.826497,12z/data=!4m9!3m8!1s0x14c382b9802d5967:0x59253862d30b5663!5m2!4m1!1i2!8m2!3d36.8560348!4d30.8796377!16s%2Fm%2F0641pm3?hl=en&entry=ttu'>MAPS</a>'da gör",
         "HallPlan": "SALON VE FUAYE PLANI"
+    },
+    "TransferSchedule": {
+        "Title": "Havalimanı Transfer Hareket Saatleri",
+        "Table1Title": "ANTALYA HAVAALANI - CONCORDE OTEL ARASI",
+        "Table1Date": "29 Şubat 2024 Perşembe",
+        "TableRow1Column1": "Sefer sayısı",
+        "TableRow1Column2": "Hareket saati",
+        "Table2Title": "CONCORDE OTEL - ANTALYA HAVAALANI ARASI",
+        "Table2Date": "3 Mart 2024 Pazar"
     },
     "Sponsorship": {
         "Title": "Sergiler – Reklam ve Sponsorluk",

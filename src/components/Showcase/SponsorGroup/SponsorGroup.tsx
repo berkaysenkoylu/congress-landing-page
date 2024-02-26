@@ -1,9 +1,11 @@
 import React, { forwardRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import classes from './SponsorGroup.module.scss';
 import SponsorCard from '../../SponsorCard/SponsorCard';
 
 const SponsorGroup = forwardRef((props: any, ref: any) => {
+    const { i18n } = useTranslation();
 
     const tekafosLogo = require('../../../assets/images/LOGOS/tekafos.png');
     const tryembirLogo = require('../../../assets/images/LOGOS/tryembirLogo.png');
@@ -24,6 +26,8 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
     const yunikoLogo = require('../../../assets/images/LOGOS/yuniko_logo.png');
     const parsanalitikLogo = require('../../../assets/images/LOGOS/parsanalitik_logo.png');
     const doaNutritionLogo = require('../../../assets/images/LOGOS/doa_nutrition_logo.png');
+    const kartalTrLogo = require('../../../assets/images/LOGOS/kartal_tr_logo.png');
+    const kartalEnLogo = require('../../../assets/images/LOGOS/kartal_en_logo.png');
 
     return (
         <div className={classes.SponsorGroup} ref={ref}>
@@ -42,6 +46,8 @@ const SponsorGroup = forwardRef((props: any, ref: any) => {
             <SponsorCard imageUrl={elancoLogo} imageAlt='elancoLogo' />
 
             <SponsorCard imageUrl={makrovitLogo} imageAlt='makrovitLogo' />
+
+            <SponsorCard imageUrl={i18n.language === 'tr' ? kartalTrLogo : kartalEnLogo} imageAlt='kartalLogo' />
 
             <SponsorCard imageUrl={parsanalitikLogo} imageAlt='parsanalitikLogo' />
 
